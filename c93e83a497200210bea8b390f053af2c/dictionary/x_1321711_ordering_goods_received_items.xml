@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fdb41bac97200210bea8b390f053af2d" label="Goods Received Items" max_length="40" name="x_1321711_ordering_goods_received_items" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="u_op_grn_items_number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element attributes="encode_utf8=false" label="PO Item" max_length="32" name="u_op_grn_items_po_item" reference="x_1321711_ordering_purchase_order_items" type="reference"/>
+        <element label="Quantity" max_length="40" name="u_op_grn_items_quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Received" max_length="40" name="u_op_grn_items_received" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Received By" max_length="32" name="u_op_grn_items_received_by" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Requested for" max_length="32" name="u_op_grn_items_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="omit_sys_original=true" label="Total Cost" max_length="20" name="u_op_grn_items_total_cost" type="currency"/>
+        <index name="index">
+            <element name="u_op_grn_items_po_item"/>
+        </index>
+        <index name="index2">
+            <element name="u_op_grn_items_received_by"/>
+        </index>
+        <index name="index3">
+            <element name="u_op_grn_items_requested_for"/>
+        </index>
+    </element>
+</database>

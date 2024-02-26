@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Ordering and Procurement">ac411f6897200210bea8b390f053af23</application>
+        <filter/>
+        <name>Goods Receipt Notes</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1321711_ordering.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:54:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e5e69f2097600210bea8b390f053af5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Goods Receipt Notes</sys_name>
+        <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_update_name>sys_ui_module_e5e69f2097600210bea8b390f053af5d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:54:57</sys_updated_on>
+        <table>x_1321711_ordering_goods_receipt_notes</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</application>
+        <file_path/>
+        <instance_id>245b92311b36b150699443f4bd4bcb1c</instance_id>
+        <instance_name>dev228945</instance_name>
+        <name>sys_ui_module_e5e69f2097600210bea8b390f053af5d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Ordering and Procurement">ac411f6897200210bea8b390f053af23</application><filter/><name>Goods Receipt Notes</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1321711_ordering.user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-21 05:54:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e5e69f2097600210bea8b390f053af5d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Goods Receipt Notes</sys_name><sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package><sys_policy/><sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope><sys_update_name>sys_ui_module_e5e69f2097600210bea8b390f053af5d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-21 05:54:57</sys_updated_on><table>x_1321711_ordering_goods_receipt_notes</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-102665836</payload_hash>
+        <record_name>Goods Receipt Notes</record_name>
+        <reverted_from/>
+        <source>4fae43e497200210bea8b390f053afc1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:54:57</sys_created_on>
+        <sys_id>a1e6576097600210bea8b390f053af77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dca3b41060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:54:57</sys_updated_on>
+        <type>Module</type>
+        <update_guid>69e69f20d16002105f9d364538d2795e</update_guid>
+        <update_guid_history>69e69f20d16002105f9d364538d2795e:-102665836</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 11:14:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>c99416f95ee64f169c7c3e92af42fe24</sys_id>
+        <sys_metadata>e5e69f2097600210bea8b390f053af5d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Goods Receipt Notes</sys_name>
+        <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_scope_delete display_value="">1f382b1817a8495c9d5e8fb0c45ae9e9</sys_scope_delete>
+        <sys_update_name>sys_ui_module_e5e69f2097600210bea8b390f053af5d</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_e5e69f2097600210bea8b390f053af5d">a1e6576097600210bea8b390f053af77</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 11:14:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

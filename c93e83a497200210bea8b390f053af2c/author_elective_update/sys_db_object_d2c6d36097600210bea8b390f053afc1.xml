@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Goods Received Notes</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1321711_ordering_goods_receipt_notes</name>
+        <number_ref display_value="GRN">b9185fa097600210bea8b390f053af07</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:54:57</sys_created_on>
+        <sys_id>d2c6d36097600210bea8b390f053afc1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Goods Received Notes</sys_name>
+        <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_update_name>sys_db_object_d2c6d36097600210bea8b390f053afc1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 11:13:30</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_1321711_ordering.user" name="x_1321711_ordering.user">8faecf6497200210bea8b390f053af13</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</application>
+        <file_path/>
+        <instance_id>245b92311b36b150699443f4bd4bcb1c</instance_id>
+        <instance_name>dev228945</instance_name>
+        <name>sys_db_object_d2c6d36097600210bea8b390f053afc1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Goods Received Notes</label><live_feed_enabled>false</live_feed_enabled><name>x_1321711_ordering_goods_receipt_notes</name><number_ref display_value="GRN">b9185fa097600210bea8b390f053af07</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-21 05:54:57</sys_created_on><sys_id>d2c6d36097600210bea8b390f053afc1</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Goods Received Notes</sys_name><sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package><sys_policy/><sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope><sys_update_name>sys_db_object_d2c6d36097600210bea8b390f053afc1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-21 11:13:30</sys_updated_on><update_access>false</update_access><user_role display_value="x_1321711_ordering.user" name="x_1321711_ordering.user">8faecf6497200210bea8b390f053af13</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>1612025268</payload_hash>
+        <record_name>Goods Received Notes</record_name>
+        <reverted_from/>
+        <source>4fae43e497200210bea8b390f053afc1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 11:13:31</sys_created_on>
+        <sys_id>8cdf58b097a40210bea8b390f053af04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dcb5ee7fc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 11:13:31</sys_updated_on>
+        <type>Table</type>
+        <update_guid>84df58b037a4021007519825c792c404</update_guid>
+        <update_guid_history>84df58b037a4021007519825c792c404:1612025268,8848dfa0bc6002107c6151d41389bc93:2104266778,71e65760f16002100617c465b12312b4:1340531726</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 11:14:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>34c24f9ebeed45d88ba807612f98cc71</sys_id>
+        <sys_metadata>d2c6d36097600210bea8b390f053afc1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Goods Received Notes</sys_name>
+        <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_scope_delete display_value="">1f382b1817a8495c9d5e8fb0c45ae9e9</sys_scope_delete>
+        <sys_update_name>sys_db_object_d2c6d36097600210bea8b390f053afc1</sys_update_name>
+        <sys_update_version display_value="sys_db_object_d2c6d36097600210bea8b390f053afc1">8cdf58b097a40210bea8b390f053af04</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 11:14:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_1321711_ordering_purchase_order">x_1321711_ordering_purchase_order</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>PO</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:40:23</sys_created_on>
+        <sys_id>88835f2c97200210bea8b390f053af0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PO</sys_name>
+        <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_update_name>sys_number_88835f2c97200210bea8b390f053af0f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:40:23</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</application>
+        <file_path/>
+        <instance_id>245b92311b36b150699443f4bd4bcb1c</instance_id>
+        <instance_name>dev228945</instance_name>
+        <name>sys_number_88835f2c97200210bea8b390f053af0f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_1321711_ordering_purchase_order">x_1321711_ordering_purchase_order</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>PO</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-21 05:40:23</sys_created_on><sys_id>88835f2c97200210bea8b390f053af0f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PO</sys_name><sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package><sys_policy/><sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope><sys_update_name>sys_number_88835f2c97200210bea8b390f053af0f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-21 05:40:23</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>349283774</payload_hash>
+        <record_name>PO</record_name>
+        <reverted_from/>
+        <source>4fae43e497200210bea8b390f053afc1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:40:24</sys_created_on>
+        <sys_id>ac939f2c97200210bea8b390f053af49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dca2deedc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:40:24</sys_updated_on>
+        <type>Number</type>
+        <update_guid>2893db2c9b2002100a9b649749062352</update_guid>
+        <update_guid_history>2893db2c9b2002100a9b649749062352:349283774</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:42:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>04538a5f1a464f8ba0b100e10e7d18e1</sys_id>
+        <sys_metadata>88835f2c97200210bea8b390f053af0f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PO</sys_name>
+        <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
+        <sys_parent display_value="Purchase Order">79211f6897200210bea8b390f053af18</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_scope_delete display_value="">1f382b1817a8495c9d5e8fb0c45ae9e9</sys_scope_delete>
+        <sys_update_name>sys_number_88835f2c97200210bea8b390f053af0f</sys_update_name>
+        <sys_update_version display_value="sys_number_88835f2c97200210bea8b390f053af0f">ac939f2c97200210bea8b390f053af49</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:42:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
