@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Purchase Order Form">25c73cd697200210bea8b390f053afb4</sc_cat_item>
+        <sc_catalog display_value="Ordering and Procurement Catalog">d657dc3897640210bea8b390f053af1a</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-02-26 04:52:25</sys_created_on>
+        <sys_id>5e88f41a97200210bea8b390f053afe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ordering and Procurement Catalog.Purchase Order Form</sys_name>
+        <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_5e88f41a97200210bea8b390f053afe5</sys_update_name>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-02-26 04:52:25</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</application>
+        <file_path/>
+        <instance_id>245b92311b36b150699443f4bd4bcb1c</instance_id>
+        <instance_name>dev228945</instance_name>
+        <name>sc_cat_item_catalog_5e88f41a97200210bea8b390f053afe5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Purchase Order Form">25c73cd697200210bea8b390f053afb4</sc_cat_item><sc_catalog display_value="Ordering and Procurement Catalog">d657dc3897640210bea8b390f053af1a</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>sanuja.kulkarni</sys_created_by><sys_created_on>2024-02-26 04:52:25</sys_created_on><sys_id>5e88f41a97200210bea8b390f053afe5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ordering and Procurement Catalog.Purchase Order Form</sys_name><sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package><sys_policy/><sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope><sys_update_name>sc_cat_item_catalog_5e88f41a97200210bea8b390f053afe5</sys_update_name><sys_updated_by>sanuja.kulkarni</sys_updated_by><sys_updated_on>2024-02-26 04:52:25</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1386114082</payload_hash>
+        <record_name>Ordering and Procurement Catalog.Purchase Order Form</record_name>
+        <reverted_from/>
+        <source>4fae43e497200210bea8b390f053afc1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-02-26 04:52:25</sys_created_on>
+        <sys_id>9e88f41a97200210bea8b390f053afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18de3c1cbdb0000001</sys_recorded_at>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-02-26 04:52:25</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>d288f41ad2200210085bb48306864ce8</update_guid>
+        <update_guid_history>d288f41ad2200210085bb48306864ce8:1386114082</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Ordering and Procurement Catalog.Purchase Order Form">2ba8a6aa97e00210bea8b390f053af6e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-02-27 07:40:52</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>08cae5780c0c488880774b236e951840</sys_id>
+        <sys_metadata>5e88f41a97200210bea8b390f053afe5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ordering and Procurement Catalog.Purchase Order Form</sys_name>
+        <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
+        <sys_parent display_value="">25c73cd697200210bea8b390f053afb4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_scope_delete display_value="">1f382b1817a8495c9d5e8fb0c45ae9e9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_5e88f41a97200210bea8b390f053afe5</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_5e88f41a97200210bea8b390f053afe5">9e88f41a97200210bea8b390f053afe8</sys_update_version>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-02-27 07:40:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

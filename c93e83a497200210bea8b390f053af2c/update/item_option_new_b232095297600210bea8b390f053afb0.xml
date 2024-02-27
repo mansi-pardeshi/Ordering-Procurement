@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Purchase Order Form">25c73cd697200210bea8b390f053afb4</cat_item>
+        <cat_item/>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -37,7 +37,7 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
@@ -79,14 +79,14 @@
         <sys_created_by>sanuja.kulkarni</sys_created_by>
         <sys_created_on>2024-02-26 05:35:52</sys_created_on>
         <sys_id>b232095297600210bea8b390f053afb0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Select Vendor Name</sys_name>
         <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_update_name>item_option_new_b232095297600210bea8b390f053afb0</sys_update_name>
         <sys_updated_by>sanuja.kulkarni</sys_updated_by>
-        <sys_updated_on>2024-02-26 05:36:50</sys_updated_on>
+        <sys_updated_on>2024-02-26 08:25:20</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>

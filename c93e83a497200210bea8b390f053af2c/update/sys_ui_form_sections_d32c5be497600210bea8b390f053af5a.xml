@@ -70,6 +70,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-02-21 06:18:01</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-26 07:56:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>37a2a5d297e00210bea8b390f053af52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1321711_ordering_asset_inventory" name="x_1321711_ordering_asset_inventory" sys_domain="global" view="Default view">d32c5be497600210bea8b390f053af5a</sys_ui_form>
+            <sys_ui_section caption="Request" display_value="Request" name="x_1321711_ordering_asset_inventory" sys_domain="global" view="Default view">33a2a5d297e00210bea8b390f053af4e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-26 07:56:33</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1321711_ordering_asset_inventory</name>
             <roles/>

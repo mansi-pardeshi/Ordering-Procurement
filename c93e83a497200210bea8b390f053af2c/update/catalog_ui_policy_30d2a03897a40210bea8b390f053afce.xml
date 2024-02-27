@@ -2,11 +2,11 @@
     <catalog_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
         <applies_catalog>true</applies_catalog>
-        <applies_req_item>false</applies_req_item>
-        <applies_sc_task>false</applies_sc_task>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>true</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <catalog_conditions>IO:7c6a543c97640210bea8b390f053af75=Vendor Details Update^EQ</catalog_conditions>
+        <catalog_conditions>IO:7c6a543c97640210bea8b390f053af75=vendor_details_update^EQ</catalog_conditions>
         <catalog_item display_value="Vendor Details Form">183a503c97640210bea8b390f053af85</catalog_item>
         <conditions/>
         <description/>
@@ -33,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>30d2a03897a40210bea8b390f053afce</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Vendor Details Update</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
@@ -41,7 +41,7 @@
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_update_name>catalog_ui_policy_30d2a03897a40210bea8b390f053afce</sys_update_name>
         <sys_updated_by>sanuja.kulkarni</sys_updated_by>
-        <sys_updated_on>2024-02-21 11:43:35</sys_updated_on>
+        <sys_updated_on>2024-02-27 10:40:39</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <variable_set/>

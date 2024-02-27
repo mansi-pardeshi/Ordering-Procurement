@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Vendor Details Form">183a503c97640210bea8b390f053af85</catalog_item>
+        <catalog_variable>IO:e9bbdf6697280210bea8b390f053afdc</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-02-27 12:19:20</sys_created_on>
+        <sys_id>26586f2a97680210bea8b390f053af97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vendor_update_business_justification</sys_name>
+        <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_26586f2a97680210bea8b390f053af97</sys_update_name>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-02-27 12:19:20</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Vendor Contract Renewal">ae01283497a40210bea8b390f053afd5</ui_policy>
+        <variable>vendor_update_business_justification</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</application>
+        <file_path/>
+        <instance_id>245b92311b36b150699443f4bd4bcb1c</instance_id>
+        <instance_name>dev228945</instance_name>
+        <name>catalog_ui_policy_action_26586f2a97680210bea8b390f053af97</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Vendor Details Form">183a503c97640210bea8b390f053af85</catalog_item><catalog_variable>IO:e9bbdf6697280210bea8b390f053afdc</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>sanuja.kulkarni</sys_created_by><sys_created_on>2024-02-27 12:19:20</sys_created_on><sys_id>26586f2a97680210bea8b390f053af97</sys_id><sys_mod_count>0</sys_mod_count><sys_name>vendor_update_business_justification</sys_name><sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package><sys_policy/><sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope><sys_update_name>catalog_ui_policy_action_26586f2a97680210bea8b390f053af97</sys_update_name><sys_updated_by>sanuja.kulkarni</sys_updated_by><sys_updated_on>2024-02-27 12:19:20</sys_updated_on><table/><ui_policy display_value="Vendor Contract Renewal">ae01283497a40210bea8b390f053afd5</ui_policy><variable>vendor_update_business_justification</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-384265963</payload_hash>
+        <record_name>vendor_update_business_justification</record_name>
+        <reverted_from/>
+        <source>b107659697e00210bea8b390f053af6f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-02-27 12:19:20</sys_created_on>
+        <sys_id>6268e32a97680210bea8b390f053af29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dea8151cc0000001</sys_recorded_at>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-02-27 12:19:20</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>a668e32ae66802108aa9e2bb2665a328</update_guid>
+        <update_guid_history>a668e32ae66802108aa9e2bb2665a328:-384265963</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="vendor_update_business_justification">15beaf2297a80210bea8b390f053af81</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-02-27 12:46:49</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>1b3960b8f5164a3a99d701ce4d167111</sys_id>
+        <sys_metadata>26586f2a97680210bea8b390f053af97</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vendor_update_business_justification</sys_name>
+        <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_scope_delete display_value="">1f382b1817a8495c9d5e8fb0c45ae9e9</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_26586f2a97680210bea8b390f053af97</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_26586f2a97680210bea8b390f053af97">6268e32a97680210bea8b390f053af29</sys_update_version>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-02-27 12:46:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

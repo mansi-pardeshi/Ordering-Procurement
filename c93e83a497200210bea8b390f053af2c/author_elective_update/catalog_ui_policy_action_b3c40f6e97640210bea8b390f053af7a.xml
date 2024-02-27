@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Vendor Details Form">183a503c97640210bea8b390f053af85</catalog_item>
+        <catalog_variable>IO:174d3e6297640210bea8b390f053af6b</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-02-27 09:43:56</sys_created_on>
+        <sys_id>b3c40f6e97640210bea8b390f053af7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>old_contract_start_date</sys_name>
+        <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_b3c40f6e97640210bea8b390f053af7a</sys_update_name>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-02-27 09:43:56</sys_updated_on>
+        <table/>
+        <ui_policy display_value="New Vendor Registration">ab0060f097a40210bea8b390f053af27</ui_policy>
+        <variable>old_contract_start_date</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</application>
+        <file_path/>
+        <instance_id>245b92311b36b150699443f4bd4bcb1c</instance_id>
+        <instance_name>dev228945</instance_name>
+        <name>catalog_ui_policy_action_b3c40f6e97640210bea8b390f053af7a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Vendor Details Form">183a503c97640210bea8b390f053af85</catalog_item><catalog_variable>IO:174d3e6297640210bea8b390f053af6b</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>sanuja.kulkarni</sys_created_by><sys_created_on>2024-02-27 09:43:56</sys_created_on><sys_id>b3c40f6e97640210bea8b390f053af7a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>old_contract_start_date</sys_name><sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package><sys_policy/><sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope><sys_update_name>catalog_ui_policy_action_b3c40f6e97640210bea8b390f053af7a</sys_update_name><sys_updated_by>sanuja.kulkarni</sys_updated_by><sys_updated_on>2024-02-27 09:43:56</sys_updated_on><table/><ui_policy display_value="New Vendor Registration">ab0060f097a40210bea8b390f053af27</ui_policy><variable>old_contract_start_date</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1991180119</payload_hash>
+        <record_name>old_contract_start_date</record_name>
+        <reverted_from/>
+        <source>b107659697e00210bea8b390f053af6f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-02-27 09:43:56</sys_created_on>
+        <sys_id>92d44f6e97640210bea8b390f053af1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18de9f30bae0000001</sys_recorded_at>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-02-27 09:43:56</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>d6d44f6e1464021009d911ba1454611c</update_guid>
+        <update_guid_history>d6d44f6e1464021009d911ba1454611c:1991180119</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="old_contract_start_date">2e668b2297a40210bea8b390f053af41</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-02-27 09:50:46</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>d30b58d0796b4b0db738e17b2d694341</sys_id>
+        <sys_metadata>b3c40f6e97640210bea8b390f053af7a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>old_contract_start_date</sys_name>
+        <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_scope_delete display_value="">1f382b1817a8495c9d5e8fb0c45ae9e9</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_b3c40f6e97640210bea8b390f053af7a</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_b3c40f6e97640210bea8b390f053af7a">92d44f6e97640210bea8b390f053af1d</sys_update_version>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-02-27 09:50:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

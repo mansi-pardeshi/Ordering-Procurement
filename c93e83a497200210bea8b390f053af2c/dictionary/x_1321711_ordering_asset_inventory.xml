@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="d400dbe497200210bea8b390f053af56" label="Asset Inventory" max_length="40" name="x_1321711_ordering_asset_inventory" type="collection">
-        <element attributes="encode_utf8=false" label="Asset Assigned To" max_length="32" name="u_op_ai_asset_assigned_to" reference="cmdb_multisource_deny_class" type="reference"/>
+        <element attributes="encode_utf8=false" label="Asset Assigned To" max_length="32" name="u_op_ai_asset_assigned_to" reference="sys_user" type="reference"/>
         <element label="Available" max_length="40" name="u_op_ai_available" type="boolean"/>
         <element attributes="encode_utf8=false" label="Company" max_length="32" name="u_op_ai_company" reference="cmdb_multisource_deny_class" type="reference"/>
         <element attributes="omit_sys_original=true" label="Cost" max_length="20" name="u_op_ai_cost" type="currency"/>
         <element attributes="encode_utf8=false" label="Department" max_length="32" name="u_op_ai_department" reference="cmdb_multisource_deny_class" type="reference"/>
         <element attributes="omit_sys_original=true" label="Depreciation Amount" max_length="20" name="u_op_ai_depreciation_amount" type="currency"/>
-        <element attributes="edge_encryption_enabled=true" label="Display Name" max_length="40" name="u_op_ai_display_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Display Name" max_length="40" name="u_op_ai_display_name" type="string"/>
         <element attributes="encode_utf8=false" label="Model Category" max_length="32" name="u_op_ai_model_category" reference="cmdb_multisource_deny_class" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="u_op_ai_number" read_only="true" type="string" use_dynamic_default="true"/>
         <element attributes="encode_utf8=false" label="Purchase Order Number" max_length="32" name="u_op_ai_po_number" reference="cmdb_multisource_deny_class" type="reference"/>
+        <element attributes="encode_utf8=false" label="Request" max_length="32" name="u_op_ai_request" reference="sc_request" type="reference"/>
+        <element attributes="encode_utf8=false" label="Requested Item" max_length="32" name="u_op_ai_requested_item" reference="sc_req_item" type="reference"/>
         <element attributes="omit_sys_original=true" label="Resale Price" max_length="20" name="u_op_ai_resale_price" type="currency"/>
         <element attributes="omit_sys_original=true" label="Salvage Value" max_length="20" name="u_op_ai_salvage_value" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Serial Number" max_length="40" name="u_op_ai_serial_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_op_ai_state" type="string">
             <choice>
-                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
-                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
-                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="On order" sequence="0" value="on_order"/>
+                <element inactive_on_update="false" label="In stock" sequence="1" value="in_stock"/>
+                <element inactive_on_update="false" label="In use" sequence="2" value="in_use"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Useful Life" max_length="40" name="u_op_ai_useful_life" type="string"/>
@@ -39,6 +41,12 @@
             <element name="u_op_ai_po_number"/>
         </index>
         <index name="index6">
+            <element name="u_op_ai_request"/>
+        </index>
+        <index name="index7">
+            <element name="u_op_ai_requested_item"/>
+        </index>
+        <index name="index8">
             <element name="u_op_ai_vendor"/>
         </index>
     </element>

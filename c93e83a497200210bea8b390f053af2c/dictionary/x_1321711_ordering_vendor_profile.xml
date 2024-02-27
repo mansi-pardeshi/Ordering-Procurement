@@ -3,14 +3,16 @@
         <element label="Active" max_length="40" name="u_op_vp_active" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="City" mandatory="true" max_length="40" name="u_op_vp_city" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Contact" mandatory="true" max_length="10" name="u_op_vp_contact" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract End Date" mandatory="true" max_length="40" name="u_op_vp_contract_end_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Contract Period" mandatory="true" max_length="40" name="u_op_vp_contract_period" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract Start Date" mandatory="true" max_length="40" name="u_op_vp_contract_start_date" type="glide_date"/>
         <element label="Discount" max_length="40" name="u_op_vp_discount" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="60" name="u_op_vp_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="u_op_vp_number" read_only="true" type="string" use_dynamic_default="true"/>
         <element attributes="edge_encryption_enabled=true" label="Zip / Postal Code" max_length="40" name="u_op_vp_postal_code" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Street" max_length="40" name="u_op_vp_street" type="string"/>
         <element attributes="encode_utf8=false" label="Vendor Manager" mandatory="true" max_length="32" name="u_op_vp_vendor_manager" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Vendor Name" mandatory="true" max_length="40" name="u_op_vp_vendor_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Vendor Name" mandatory="true" max_length="40" name="u_op_vp_vendor_name" type="string"/>
         <index name="index">
             <element name="u_op_vp_vendor_manager"/>
         </index>
