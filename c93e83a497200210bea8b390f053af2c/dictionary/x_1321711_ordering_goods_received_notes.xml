@@ -3,7 +3,7 @@
         <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="u_op_grn_number" read_only="true" type="string" use_dynamic_default="true"/>
         <element attributes="encode_utf8=false" label="Purchase Order" max_length="32" name="u_op_grn_purchase_order" reference="x_1321711_ordering_purchase_order" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Received" max_length="40" name="u_op_grn_received" type="glide_date_time"/>
-        <element attributes="encode_utf8=false" label="Received By" mandatory="true" max_length="32" name="u_op_grn_received_by" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Received By" mandatory="true" max_length="32" name="u_op_grn_received_by" reference="sys_user" reference_qual="roles=Procurement_staff^ORroles=Procurement_admin^EQ" reference_qual_condition="roles=Procurement_staff^ORroles=Procurement_admin^EQ" type="reference"/>
         <element attributes="encode_utf8=false" label="Receiving Location" max_length="32" name="u_op_grn_receiving_loc" reference="cmn_location" type="reference"/>
         <index name="index">
             <element name="u_op_grn_purchase_order"/>

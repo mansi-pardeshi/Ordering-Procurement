@@ -2,7 +2,7 @@
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
         <catalog_item display_value="Vendor Details Form">183a503c97640210bea8b390f053af85</catalog_item>
         <catalog_variable>IO:04fab66e97240210bea8b390f053af7f</catalog_variable>
-        <cleared>true</cleared>
+        <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
         <mandatory>true</mandatory>
@@ -11,14 +11,14 @@
         <sys_created_by>sanuja.kulkarni</sys_created_by>
         <sys_created_on>2024-02-27 09:28:46</sys_created_on>
         <sys_id>0251cfa697640210bea8b390f053af6e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>new_vendor_s_city</sys_name>
         <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_update_name>catalog_ui_policy_action_0251cfa697640210bea8b390f053af6e</sys_update_name>
-        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
-        <sys_updated_on>2024-02-27 11:28:07</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-28 12:22:38</sys_updated_on>
         <table/>
         <ui_policy display_value="New Vendor Registration">ab0060f097a40210bea8b390f053af27</ui_policy>
         <variable>new_vendor_s_city</variable>

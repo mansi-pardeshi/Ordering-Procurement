@@ -2,31 +2,31 @@
     <sys_ui_related sys_domain="global" table="x_1321711_ordering_purchase_order" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Purchase Order - Default view" name="x_1321711_ordering_purchase_order" related_list="NULL" sys_domain="global" view="Default view">edb74e2297600210bea8b390f053afcd</list_id>
+            <list_id display_value="Purchase Order - Default view" name="x_1321711_ordering_purchase_order" related_list="NULL" sys_domain="global" view="Default view">eb149447972c4210bea8b390f053af98</list_id>
             <order_by/>
             <position>0</position>
-            <related_list>REL:080642ee97200210bea8b390f053aff4</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 05:16:49</sys_created_on>
-            <sys_id>65b74e2297600210bea8b390f053afcf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 05:16:49</sys_updated_on>
-        </sys_ui_related_list_entry>
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="Purchase Order - Default view" name="x_1321711_ordering_purchase_order" related_list="NULL" sys_domain="global" view="Default view">edb74e2297600210bea8b390f053afcd</list_id>
-            <order_by/>
-            <position>1</position>
             <related_list>x_1321711_ordering_purchase_order_items.u_op_po_items_purchase_order</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 05:16:49</sys_created_on>
-            <sys_id>adb74e2297600210bea8b390f053afcf</sys_id>
+            <sys_created_on>2024-02-28 10:08:44</sys_created_on>
+            <sys_id>6b149447972c4210bea8b390f053af99</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 05:16:49</sys_updated_on>
+            <sys_updated_on>2024-02-28 10:08:44</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Purchase Order - Default view" name="x_1321711_ordering_purchase_order" related_list="NULL" sys_domain="global" view="Default view">eb149447972c4210bea8b390f053af98</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:1615888397e84210bea8b390f053afd2</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-28 10:08:44</sys_created_on>
+            <sys_id>63149447972c4210bea8b390f053af9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-28 10:08:44</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Purchase Order - Default view</calculated_name>
@@ -37,10 +37,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 05:16:49</sys_created_on>
+            <sys_created_on>2024-02-28 10:08:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>edb74e2297600210bea8b390f053afcd</sys_id>
+            <sys_id>eb149447972c4210bea8b390f053af98</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Purchase Order - Default view</sys_name>
             <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
@@ -48,7 +48,7 @@
             <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
             <sys_update_name>sys_ui_related_x_1321711_ordering_purchase_order_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 05:16:49</sys_updated_on>
+            <sys_updated_on>2024-02-28 10:08:44</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

@@ -56,8 +56,9 @@
         <record/>
         <record_producer_table/>
         <reference>sys_user</reference>
-        <reference_qual>roles=Procurement^EQ</reference_qual>
-        <reference_qual_condition table="sys_user">roles=Procurement^EQ<item endquery="false" field="roles" goto="false" newquery="false" operator="=" or="false" value="Procurement"/>
+        <reference_qual>roles=Procurement_staff^ORroles=Procurement_admin^EQ</reference_qual>
+        <reference_qual_condition table="sys_user">roles=Procurement_staff^ORroles=Procurement_admin^EQ<item endquery="false" field="roles" goto="false" newquery="false" operator="=" or="false" value="Procurement_staff"/>
+            <item endquery="false" field="roles" goto="false" newquery="false" operator="=" or="true" value="Procurement_admin"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <rich_text/>
@@ -79,14 +80,14 @@
         <sys_created_by>sanuja.kulkarni</sys_created_by>
         <sys_created_on>2024-02-27 09:00:18</sys_created_on>
         <sys_id>649af66e97240210bea8b390f053af48</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>new_vendor_s_manager</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Vendor's Manager</sys_name>
         <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_update_name>item_option_new_649af66e97240210bea8b390f053af48</sys_update_name>
-        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
-        <sys_updated_on>2024-02-27 11:00:34</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-28 11:38:24</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>

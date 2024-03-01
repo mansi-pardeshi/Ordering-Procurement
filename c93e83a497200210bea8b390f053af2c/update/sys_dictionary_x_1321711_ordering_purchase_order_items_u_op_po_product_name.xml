@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="number" table="x_1321711_ordering_purchase_order">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_op_po_product_name" table="x_1321711_ordering_purchase_order_items">
         <active>true</active>
         <array>false</array>
-        <attributes>ignore_filter_on_new=true</attributes>
+        <attributes>encode_utf8=false</attributes>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
+        <calculation/>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Number</column_label>
+        <column_label>Product Name</column_label>
         <comments/>
         <create_roles/>
-        <default_value>javascript:global.getNextObjNumberPadded();</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -26,39 +21,43 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>number</element>
+        <element>u_op_po_product_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_1321711_ordering_purchase_order</name>
+        <max_length>32</max_length>
+        <name>x_1321711_ordering_purchase_order_items</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="sc_cat_item">sc_cat_item</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>sc_catalogsLIKEa0563ad897600210bea8b390f053af91^category=8a763ed897600210bea8b390f053af4e^ORcategory=9765cb9c97a00210bea8b390f053afc6^EQ</reference_qual>
+        <reference_qual_condition table="sc_cat_item">sc_catalogsLIKEa0563ad897600210bea8b390f053af91^category=8a763ed897600210bea8b390f053af4e^ORcategory=9765cb9c97a00210bea8b390f053afc6^EQ<item endquery="false" field="sc_catalogs" goto="false" newquery="false" operator="LIKE" or="false" value="a0563ad897600210bea8b390f053af91"/>
+            <item display_table="sc_category" display_value="HP" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="8a763ed897600210bea8b390f053af4e"/>
+            <item display_table="sc_category" display_value="DELL" endquery="false" field="category" goto="false" newquery="false" operator="=" or="true" value="9765cb9c97a00210bea8b390f053afc6"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <reference_type/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-02-21 05:42:58</sys_created_on>
-        <sys_name>Number</sys_name>
+        <sys_created_on>2024-02-28 06:08:28</sys_created_on>
+        <sys_name>Product Name</sys_name>
         <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
-        <sys_update_name>sys_dictionary_x_1321711_ordering_purchase_order_number</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1321711_ordering_purchase_order_items_u_op_po_product_name</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 05:42:58</sys_updated_on>
+        <sys_updated_on>2024-02-28 06:19:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

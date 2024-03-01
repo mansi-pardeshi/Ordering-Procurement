@@ -2,7 +2,8 @@
     <element db_object_id="fdb41bac97200210bea8b390f053af2d" label="Goods Received Items" max_length="40" name="x_1321711_ordering_goods_received_items" type="collection">
         <element attributes="encode_utf8=false" label="GRN" max_length="32" name="u_op_grn_items_grn" reference="x_1321711_ordering_goods_received_notes" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="u_op_grn_items_number" read_only="true" type="string" use_dynamic_default="true"/>
-        <element attributes="encode_utf8=false" label="PO Item" max_length="32" name="u_op_grn_items_po_item" reference="x_1321711_ordering_purchase_order_items" type="reference"/>
+        <element attributes="encode_utf8=false" label="PO Item" max_length="32" name="u_op_grn_items_po_item" reference="x_1321711_ordering_purchase_order_items" reference_qual="javascript:&quot;u_op_po_items_purchase_order=&quot;+current.u_op_grn_items_grn.u_op_grn_purchase_order;" type="reference" use_reference_qualifier="advanced"/>
+        <element active="false" attributes="encode_utf8=false" label="Purchase Order Number" max_length="32" name="u_op_grn_items_po_number" reference="x_1321711_ordering_goods_received_notes" type="reference"/>
         <element label="Quantity" max_length="40" name="u_op_grn_items_quantity" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Received" max_length="40" name="u_op_grn_items_received" type="glide_date_time"/>
         <element attributes="encode_utf8=false" label="Received By" max_length="32" name="u_op_grn_items_received_by" reference="sys_user" reference_qual="emailLIKE@gmail.com^EQ" reference_qual_condition="emailLIKE@gmail.com^EQ" type="reference"/>
@@ -15,9 +16,12 @@
             <element name="u_op_grn_items_po_item"/>
         </index>
         <index name="index3">
-            <element name="u_op_grn_items_received_by"/>
+            <element name="u_op_grn_items_po_number"/>
         </index>
         <index name="index4">
+            <element name="u_op_grn_items_received_by"/>
+        </index>
+        <index name="index5">
             <element name="u_op_grn_items_requested_for"/>
         </index>
     </element>

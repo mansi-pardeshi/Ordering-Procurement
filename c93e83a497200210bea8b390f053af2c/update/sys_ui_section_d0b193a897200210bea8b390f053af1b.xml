@@ -1,170 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="d0b193a897200210bea8b390f053af1b" sys_domain="global" table="x_1321711_ordering_purchase_order" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>u_op_po_number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 09:23:28</sys_created_on>
-            <sys_id>a620cb2697640210bea8b390f053afaf</sys_id>
+            <sys_created_on>2024-02-28 05:16:20</sys_created_on>
+            <sys_id>c831977697e44210bea8b390f053af4c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_purchase_order" sys_domain="global" view="Default view">d0b193a897200210bea8b390f053af1b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 09:23:28</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_op_po_number</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 09:23:28</sys_created_on>
-            <sys_id>2e20cb2697640210bea8b390f053afaf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_purchase_order" sys_domain="global" view="Default view">d0b193a897200210bea8b390f053af1b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 09:23:28</sys_updated_on>
+            <sys_updated_on>2024-02-28 05:16:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_op_po_po_initiator</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 09:23:28</sys_created_on>
-            <sys_id>ae20cb2697640210bea8b390f053afaf</sys_id>
+            <sys_created_on>2024-02-28 05:16:20</sys_created_on>
+            <sys_id>c031977697e44210bea8b390f053af4d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_purchase_order" sys_domain="global" view="Default view">d0b193a897200210bea8b390f053af1b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 09:23:28</sys_updated_on>
+            <sys_updated_on>2024-02-28 05:16:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_op_po_po_date</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 09:23:28</sys_created_on>
-            <sys_id>ee20076697640210bea8b390f053afac</sys_id>
+            <sys_created_on>2024-02-28 05:16:20</sys_created_on>
+            <sys_id>c431977697e44210bea8b390f053af4d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_purchase_order" sys_domain="global" view="Default view">d0b193a897200210bea8b390f053af1b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 09:23:28</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_op_po_req_number</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 09:23:28</sys_created_on>
-            <sys_id>6220076697640210bea8b390f053afad</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_purchase_order" sys_domain="global" view="Default view">d0b193a897200210bea8b390f053af1b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 09:23:28</sys_updated_on>
+            <sys_updated_on>2024-02-28 05:16:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 09:23:28</sys_created_on>
-            <sys_id>e220076697640210bea8b390f053afad</sys_id>
+            <sys_created_on>2024-02-28 05:16:20</sys_created_on>
+            <sys_id>c831977697e44210bea8b390f053af4d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_purchase_order" sys_domain="global" view="Default view">d0b193a897200210bea8b390f053af1b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 09:23:28</sys_updated_on>
+            <sys_updated_on>2024-02-28 05:16:20</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_op_po_state</element>
-            <position>6</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 09:23:28</sys_created_on>
-            <sys_id>6620076697640210bea8b390f053afad</sys_id>
+            <sys_created_on>2024-02-28 05:16:20</sys_created_on>
+            <sys_id>cc31977697e44210bea8b390f053af4d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_purchase_order" sys_domain="global" view="Default view">d0b193a897200210bea8b390f053af1b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 09:23:28</sys_updated_on>
+            <sys_updated_on>2024-02-28 05:16:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_op_po_vendor</element>
-            <position>7</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 09:23:28</sys_created_on>
-            <sys_id>e620076697640210bea8b390f053afad</sys_id>
+            <sys_created_on>2024-02-28 05:16:20</sys_created_on>
+            <sys_id>c031977697e44210bea8b390f053af4e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_purchase_order" sys_domain="global" view="Default view">d0b193a897200210bea8b390f053af1b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 09:23:28</sys_updated_on>
+            <sys_updated_on>2024-02-28 05:16:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_op_po_total_cost</element>
-            <position>8</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 09:23:28</sys_created_on>
-            <sys_id>6a20076697640210bea8b390f053afad</sys_id>
+            <sys_created_on>2024-02-28 05:16:20</sys_created_on>
+            <sys_id>c431977697e44210bea8b390f053af4e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_purchase_order" sys_domain="global" view="Default view">d0b193a897200210bea8b390f053af1b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 09:23:28</sys_updated_on>
+            <sys_updated_on>2024-02-28 05:16:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_op_po_poiattachment</element>
-            <position>9</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 09:23:28</sys_created_on>
-            <sys_id>ea20076697640210bea8b390f053afad</sys_id>
+            <sys_created_on>2024-02-28 05:16:20</sys_created_on>
+            <sys_id>c831977697e44210bea8b390f053af4e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_purchase_order" sys_domain="global" view="Default view">d0b193a897200210bea8b390f053af1b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 09:23:28</sys_updated_on>
+            <sys_updated_on>2024-02-28 05:16:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>10</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 09:23:28</sys_created_on>
-            <sys_id>6e20076697640210bea8b390f053afad</sys_id>
+            <sys_created_on>2024-02-28 05:16:20</sys_created_on>
+            <sys_id>cc31977697e44210bea8b390f053af4e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_purchase_order" sys_domain="global" view="Default view">d0b193a897200210bea8b390f053af1b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 09:23:28</sys_updated_on>
+            <sys_updated_on>2024-02-28 05:16:20</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_op_po_description</element>
-            <position>11</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 09:23:28</sys_created_on>
-            <sys_id>ee20076697640210bea8b390f053afad</sys_id>
+            <sys_created_on>2024-02-28 05:16:20</sys_created_on>
+            <sys_id>c031977697e44210bea8b390f053af4f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_purchase_order" sys_domain="global" view="Default view">d0b193a897200210bea8b390f053af1b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 09:23:28</sys_updated_on>
+            <sys_updated_on>2024-02-28 05:16:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="79211f6897200210bea8b390f053af18" label="Purchase Order" max_length="40" name="x_1321711_ordering_purchase_order" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="u_op_po_description" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="u_op_po_number" read_only="true" type="string" use_dynamic_default="true"/>
-        <element label="PO Items attachment" max_length="40" name="u_op_po_poiattachment" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="u_op_po_number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element label="PO Items attachment" max_length="40" name="u_op_po_poiattachment" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="PO Date" mandatory="true" max_length="40" name="u_op_po_po_date" type="glide_date_time"/>
-        <element attributes="encode_utf8=false" label="PO Initiator" max_length="32" name="u_op_po_po_initiator" reference="sys_user" type="reference"/>
-        <element attributes="encode_utf8=false" label="Request Number" max_length="32" name="u_op_po_request_number" reference="sc_request" type="reference"/>
+        <element attributes="encode_utf8=false" label="PO Initiator" max_length="32" name="u_op_po_po_initiator" reference="sys_user" reference_qual="roles=Procurement_staff^ORroles=Procurement_admin^EQ" reference_qual_condition="roles=Procurement_staff^ORroles=Procurement_admin^EQ" type="reference"/>
         <element attributes="encode_utf8=false" label="Request Number" max_length="32" name="u_op_po_req_number" reference="sc_request" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="requested" label="State" max_length="40" name="u_op_po_state" type="string">
             <choice>
@@ -27,9 +25,6 @@
             <element name="u_op_po_req_number"/>
         </index>
         <index name="index3">
-            <element name="u_op_po_request_number"/>
-        </index>
-        <index name="index4">
             <element name="u_op_po_vendor"/>
         </index>
     </element>

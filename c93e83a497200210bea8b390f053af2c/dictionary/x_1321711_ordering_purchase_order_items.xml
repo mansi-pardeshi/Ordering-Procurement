@@ -18,11 +18,15 @@
         </element>
         <element attributes="omit_sys_original=true" label="Total Cost" max_length="20" name="u_op_po_items_total_cost" type="currency"/>
         <element attributes="encode_utf8=false" label="Vendor" max_length="32" name="u_op_po_items_vendor" reference="x_1321711_ordering_vendor_profile" type="reference"/>
+        <element attributes="encode_utf8=false" label="Product Name" max_length="32" name="u_op_po_product_name" reference="sc_cat_item" reference_qual="sc_catalogsLIKEa0563ad897600210bea8b390f053af91^category=8a763ed897600210bea8b390f053af4e^ORcategory=9765cb9c97a00210bea8b390f053afc6^EQ" reference_qual_condition="sc_catalogsLIKEa0563ad897600210bea8b390f053af91^category=8a763ed897600210bea8b390f053af4e^ORcategory=9765cb9c97a00210bea8b390f053afc6^EQ" type="reference"/>
         <index name="index">
             <element name="u_op_po_items_purchase_order"/>
         </index>
         <index name="index2">
             <element name="u_op_po_items_vendor"/>
+        </index>
+        <index name="index3">
+            <element name="u_op_po_product_name"/>
         </index>
     </element>
 </database>
