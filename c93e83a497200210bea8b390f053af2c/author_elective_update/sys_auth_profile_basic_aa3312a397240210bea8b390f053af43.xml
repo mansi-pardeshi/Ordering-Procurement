@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="DELETE">
+        <name>Twilio</name>
+        <password>﷞﷟﷒546a2ae797d00210bea8b390f053af45﷬﷔1﷬﷭IEdMU95UrHAB9ogAM6u0PA==7cKpcEhjYLazom4EABgDyWiSyD7bznNQhF9TFEr3pRtz-xg6GRggNQpO2z8gBKof﷮﷯</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 08:41:33</sys_created_on>
+        <sys_id>aa3312a397240210bea8b390f053af43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Twilio</sys_name>
+        <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_aa3312a397240210bea8b390f053af43</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 08:41:33</sys_updated_on>
+        <username>AC9c8f6ea0f32504486561a1e152b1fae9</username>
+    </sys_auth_profile_basic>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</application>
+        <file_path/>
+        <instance_id>245b92311b36b150699443f4bd4bcb1c</instance_id>
+        <instance_name>dev228945</instance_name>
+        <name>sys_auth_profile_basic_aa3312a397240210bea8b390f053af43</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic"><sys_auth_profile_basic action="INSERT_OR_UPDATE"><name>Twilio</name><password>﷞﷟﷒546a2ae797d00210bea8b390f053af45﷬﷔1﷬﷭IEdMU95UrHAB9ogAM6u0PA==7cKpcEhjYLazom4EABgDyWiSyD7bznNQhF9TFEr3pRtz-xg6GRggNQpO2z8gBKof﷮﷯</password><sys_class_name>sys_auth_profile_basic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-01 08:41:33</sys_created_on><sys_id>aa3312a397240210bea8b390f053af43</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Twilio</sys_name><sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package><sys_policy/><sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope><sys_update_name>sys_auth_profile_basic_aa3312a397240210bea8b390f053af43</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-01 08:41:33</sys_updated_on><username>AC9c8f6ea0f32504486561a1e152b1fae9</username></sys_auth_profile_basic></record_update>]]></payload>
+        <payload_hash>-392788530</payload_hash>
+        <record_name>Twilio</record_name>
+        <reverted_from/>
+        <source>876e8e2a97600210bea8b390f053af6f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 08:41:33</sys_created_on>
+        <sys_id>b1535a6397240210bea8b390f053af31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18df92d02e20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 08:41:33</sys_updated_on>
+        <type>Basic Auth Configuration</type>
+        <update_guid>f5535a6395240210ccafee8d0eb67830</update_guid>
+        <update_guid_history>f5535a6395240210ccafee8d0eb67830:-392788530</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 08:44:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_auth_profile_basic">sys_auth_profile_basic</sys_db_object>
+        <sys_id>06dd05ec541f4bdaab99db2c7a7e9044</sys_id>
+        <sys_metadata>aa3312a397240210bea8b390f053af43</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Twilio</sys_name>
+        <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_scope_delete display_value="">1f382b1817a8495c9d5e8fb0c45ae9e9</sys_scope_delete>
+        <sys_update_name>sys_auth_profile_basic_aa3312a397240210bea8b390f053af43</sys_update_name>
+        <sys_update_version display_value="sys_auth_profile_basic_aa3312a397240210bea8b390f053af43">b1535a6397240210bea8b390f053af31</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 08:44:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

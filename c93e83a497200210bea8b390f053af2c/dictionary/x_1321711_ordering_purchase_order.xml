@@ -16,7 +16,7 @@
                 <element inactive_on_update="false" label="Approved" sequence="4" value="approved"/>
             </choice>
         </element>
-        <element attributes="omit_sys_original=true" label="Total Cost" max_length="20" name="u_op_po_total_cost" type="currency"/>
+        <element attributes="omit_sys_original=true" label="PO Total Cost" max_length="20" name="u_op_po_total_cost" type="currency"/>
         <element attributes="encode_utf8=false" label="Vendor" mandatory="true" max_length="32" name="u_op_po_vendor" reference="x_1321711_ordering_vendor_profile" type="reference"/>
         <index name="index">
             <element name="u_op_po_po_initiator"/>

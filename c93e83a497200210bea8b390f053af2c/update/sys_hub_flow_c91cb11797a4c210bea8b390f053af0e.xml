@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>sr_flowop</internal_name>
-        <label_cache>[{"name":"Service Catalog_1.request_item.request.approval","label":"Trigger - Service Catalog➛Requested Item Record➛Request➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"sc_request","column_name":"approval","choices":[{"label":"Not Yet Requested","rawLabel":"Not Yet Requested","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"not requested","parameters":{"name":"task"}},{"label":"Requested","rawLabel":"Requested","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"requested","parameters":{"name":"task"}},{"label":"Approved","rawLabel":"Approved","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"approved","parameters":{"name":"task"}},{"label":"Rejected","rawLabel":"Rejected","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"rejected","parameters":{"name":"task"}}]},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}}]</label_cache>
+        <label_cache>[{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.request.approval","label":"Trigger - Service Catalog➛Requested Item Record➛Request➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"sc_request","column_name":"approval","choices":[{"label":"Not Yet Requested","rawLabel":"Not Yet Requested","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"not requested","parameters":{"name":"task"}},{"label":"Requested","rawLabel":"Requested","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"requested","parameters":{"name":"task"}},{"label":"Approved","rawLabel":"Approved","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"approved","parameters":{"name":"task"}},{"label":"Rejected","rawLabel":"Rejected","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"rejected","parameters":{"name":"task"}}]}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>SR Flow(OP)</name>
@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c91cb11797a4c210bea8b390f053af0e</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>SR Flow(OP)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_update_name>sys_hub_flow_c91cb11797a4c210bea8b390f053af0e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 06:28:04</sys_updated_on>
+        <sys_updated_on>2024-03-01 09:13:35</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=c91cb11797a4c210bea8b390f053af0e"/>
@@ -54,10 +54,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-01 06:07:39</sys_created_on>
         <sys_id>671079eb97600210bea8b390f053afdf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 06:07:39</sys_updated_on>
+        <sys_updated_on>2024-03-01 09:13:35</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -225,14 +225,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-01 06:07:39</sys_created_on>
         <sys_id>571079eb97600210bea8b390f053afd9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 06:07:39</sys_updated_on>
+        <sys_updated_on>2024-03-01 09:13:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -247,7 +247,31 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=c91cb11797a4c210bea8b390f053af0e"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=c91cb11797a4c210bea8b390f053af0e"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=c91cb11797a4c210bea8b390f053af0e"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=c91cb11797a4c210bea8b390f053af0e^sys_idNOT IN97aad2eb97240210bea8b390f053afc4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="SR Flow(OP)">c91cb11797a4c210bea8b390f053af0e</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 09:13:35</sys_created_on>
+        <sys_id>97aad2eb97240210bea8b390f053afc4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 09:13:35</sys_updated_on>
+        <ui_id>722f79b2-4edc-415a-a3a9-4e0bf99c7e02</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=97aad2eb97240210bea8b390f053afc4"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1^id=97aad2eb97240210bea8b390f053afc4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=97aad2eb97240210bea8b390f053afc4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=97aad2eb97240210bea8b390f053afc4"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c91cb11797a4c210bea8b390f053af0e"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=c91cb11797a4c210bea8b390f053af0e^sys_idNOT INa71079eb97600210bea8b390f053afe1"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
@@ -272,10 +296,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-01 06:07:39</sys_created_on>
         <sys_id>a71079eb97600210bea8b390f053afe1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 06:07:39</sys_updated_on>
+        <sys_updated_on>2024-03-01 09:13:35</sys_updated_on>
         <ui_id>ebc2b781-63f0-43c9-93ee-0ffc7e43fd0d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>

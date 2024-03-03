@@ -3,9 +3,9 @@
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="400" name="u_op_po_items_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="u_op_po_items_number" read_only="true" type="string" use_dynamic_default="true"/>
         <element attributes="omit_sys_original=true" label="Per Item Cost" max_length="20" name="u_op_po_items_per_item_cost" type="currency"/>
-        <element attributes="encode_utf8=false" label="Puchase Order" max_length="32" name="u_op_po_items_purchase_order" reference="x_1321711_ordering_purchase_order" type="reference"/>
+        <element attributes="encode_utf8=false" label="Puchase Order" max_length="32" name="u_op_po_items_purchase_order" read_only="true" reference="x_1321711_ordering_purchase_order" type="reference"/>
         <element label="Quantity" max_length="40" name="u_op_po_items_quantity" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_op_po_items_state" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="requested" label="State" max_length="40" name="u_op_po_items_state" type="string">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
                 <element inactive_on_update="false" label="Received" sequence="0" value="received"/>
@@ -16,7 +16,7 @@
                 <element inactive_on_update="false" label="Requested" sequence="3" value="requested"/>
             </choice>
         </element>
-        <element attributes="omit_sys_original=true" label="Total Cost" max_length="20" name="u_op_po_items_total_cost" type="currency"/>
+        <element attributes="omit_sys_original=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;&#13;&#10;&#9;return current.u_op_po_product_name.price*current.u_op_po_items_quantity;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Total Cost" max_length="20" name="u_op_po_items_total_cost" type="currency" virtual="true"/>
         <element attributes="encode_utf8=false" label="Vendor" max_length="32" name="u_op_po_items_vendor" reference="x_1321711_ordering_vendor_profile" type="reference"/>
         <element attributes="encode_utf8=false" label="Product Name" max_length="32" name="u_op_po_product_name" reference="sc_cat_item" reference_qual="sc_catalogsLIKEa0563ad897600210bea8b390f053af91^category=8a763ed897600210bea8b390f053af4e^ORcategory=9765cb9c97a00210bea8b390f053afc6^EQ" reference_qual_condition="sc_catalogsLIKEa0563ad897600210bea8b390f053af91^category=8a763ed897600210bea8b390f053af4e^ORcategory=9765cb9c97a00210bea8b390f053afc6^EQ" type="reference"/>
         <index name="index">

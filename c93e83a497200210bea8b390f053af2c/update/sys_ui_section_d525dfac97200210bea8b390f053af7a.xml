@@ -3,126 +3,140 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_op_grn_items_number</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 05:20:02</sys_created_on>
-            <sys_id>ec78ca6297600210bea8b390f053afe6</sys_id>
+            <sys_created_by>sanuja.kulkarni</sys_created_by>
+            <sys_created_on>2024-02-28 10:35:28</sys_created_on>
+            <sys_id>833a544f972c4210bea8b390f053aff1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_goods_received_items" sys_domain="global" view="Default view">d525dfac97200210bea8b390f053af7a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 05:20:02</sys_updated_on>
+            <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+            <sys_updated_on>2024-02-28 10:35:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_op_grn_items_po_item</element>
+            <element>u_op_grn_items_grn</element>
             <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 05:20:02</sys_created_on>
-            <sys_id>a478ca6297600210bea8b390f053afe7</sys_id>
+            <sys_created_by>sanuja.kulkarni</sys_created_by>
+            <sys_created_on>2024-02-28 10:35:28</sys_created_on>
+            <sys_id>873a544f972c4210bea8b390f053aff1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_goods_received_items" sys_domain="global" view="Default view">d525dfac97200210bea8b390f053af7a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 05:20:02</sys_updated_on>
+            <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+            <sys_updated_on>2024-02-28 10:35:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_op_grn_items_requested_for</element>
+            <element>u_op_grn_items_received</element>
             <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 05:20:02</sys_created_on>
-            <sys_id>2878ca6297600210bea8b390f053afe7</sys_id>
+            <sys_created_by>sanuja.kulkarni</sys_created_by>
+            <sys_created_on>2024-02-28 10:35:28</sys_created_on>
+            <sys_id>8b3a544f972c4210bea8b390f053aff1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_goods_received_items" sys_domain="global" view="Default view">d525dfac97200210bea8b390f053af7a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 05:20:02</sys_updated_on>
+            <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+            <sys_updated_on>2024-02-28 10:35:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_op_grn_items_quantity</element>
+            <element>u_op_grn_items_received_by</element>
             <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 05:20:02</sys_created_on>
-            <sys_id>a878ca6297600210bea8b390f053afe7</sys_id>
+            <sys_created_by>sanuja.kulkarni</sys_created_by>
+            <sys_created_on>2024-02-28 10:35:28</sys_created_on>
+            <sys_id>8f3a544f972c4210bea8b390f053aff1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_goods_received_items" sys_domain="global" view="Default view">d525dfac97200210bea8b390f053af7a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 05:20:02</sys_updated_on>
+            <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+            <sys_updated_on>2024-02-28 10:35:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 05:20:02</sys_created_on>
-            <sys_id>2c78ca6297600210bea8b390f053afe7</sys_id>
+            <sys_created_by>sanuja.kulkarni</sys_created_by>
+            <sys_created_on>2024-02-28 10:35:28</sys_created_on>
+            <sys_id>833a544f972c4210bea8b390f053aff2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_goods_received_items" sys_domain="global" view="Default view">d525dfac97200210bea8b390f053af7a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 05:20:02</sys_updated_on>
+            <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+            <sys_updated_on>2024-02-28 10:35:28</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_op_grn_items_grn</element>
+            <element>u_op_grn_items_po_item</element>
             <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 05:20:02</sys_created_on>
-            <sys_id>ac78ca6297600210bea8b390f053afe7</sys_id>
+            <sys_created_by>sanuja.kulkarni</sys_created_by>
+            <sys_created_on>2024-02-28 10:35:28</sys_created_on>
+            <sys_id>873a544f972c4210bea8b390f053aff2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_goods_received_items" sys_domain="global" view="Default view">d525dfac97200210bea8b390f053af7a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 05:20:02</sys_updated_on>
+            <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+            <sys_updated_on>2024-02-28 10:35:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_op_grn_items_received</element>
+            <element>u_op_grn_items_po_item.u_op_po_product_name</element>
             <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 05:20:02</sys_created_on>
-            <sys_id>2078ca6297600210bea8b390f053afe8</sys_id>
+            <sys_created_by>sanuja.kulkarni</sys_created_by>
+            <sys_created_on>2024-02-28 10:35:28</sys_created_on>
+            <sys_id>473a584f972c4210bea8b390f053afb0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_goods_received_items" sys_domain="global" view="Default view">d525dfac97200210bea8b390f053af7a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 05:20:02</sys_updated_on>
+            <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+            <sys_updated_on>2024-02-28 10:35:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_op_grn_items_received_by</element>
+            <element>u_op_grn_items_po_item.u_op_po_product_name.price</element>
             <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 05:20:02</sys_created_on>
-            <sys_id>a078ca6297600210bea8b390f053afe8</sys_id>
+            <sys_created_by>sanuja.kulkarni</sys_created_by>
+            <sys_created_on>2024-02-28 10:35:28</sys_created_on>
+            <sys_id>4b3a584f972c4210bea8b390f053afb0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_goods_received_items" sys_domain="global" view="Default view">d525dfac97200210bea8b390f053af7a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 05:20:02</sys_updated_on>
+            <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+            <sys_updated_on>2024-02-28 10:35:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_op_grn_items_total_cost</element>
+            <element>u_op_grn_items_po_item.u_op_po_items_quantity</element>
             <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-27 05:20:02</sys_created_on>
-            <sys_id>2478ca6297600210bea8b390f053afe8</sys_id>
+            <sys_created_by>sanuja.kulkarni</sys_created_by>
+            <sys_created_on>2024-02-28 10:35:28</sys_created_on>
+            <sys_id>4f3a584f972c4210bea8b390f053afb0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_goods_received_items" sys_domain="global" view="Default view">d525dfac97200210bea8b390f053af7a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-27 05:20:02</sys_updated_on>
+            <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+            <sys_updated_on>2024-02-28 10:35:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_op_grn_items_po_item.u_op_po_items_total_cost</element>
+            <position>9</position>
+            <sys_created_by>sanuja.kulkarni</sys_created_by>
+            <sys_created_on>2024-02-28 10:35:28</sys_created_on>
+            <sys_id>433a584f972c4210bea8b390f053afb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1321711_ordering_goods_received_items" sys_domain="global" view="Default view">d525dfac97200210bea8b390f053af7a</sys_ui_section>
+            <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+            <sys_updated_on>2024-02-28 10:35:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

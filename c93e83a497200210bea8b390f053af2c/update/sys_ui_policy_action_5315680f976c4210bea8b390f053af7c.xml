@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>u_op_grn_items_po_item.u_op_po_items_quantity</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-02-28 11:23:51</sys_created_on>
+        <sys_id>5315680f976c4210bea8b390f053af7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_op_grn_items_po_item.u_op_po_items_quantity</sys_name>
+        <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_5315680f976c4210bea8b390f053af7c</sys_update_name>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-02-28 11:23:51</sys_updated_on>
+        <table>x_1321711_ordering_goods_received_items</table>
+        <ui_policy display_value="to make fields readonly if PO item is selected or not empty">45c4a00f976c4210bea8b390f053af12</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

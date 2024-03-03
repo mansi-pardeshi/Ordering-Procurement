@@ -5,6 +5,8 @@
         <element attributes="edge_encryption_enabled=true" label="Received" max_length="40" name="u_op_grn_received" type="glide_date_time"/>
         <element attributes="encode_utf8=false" label="Received By" mandatory="true" max_length="32" name="u_op_grn_received_by" reference="sys_user" reference_qual="roles=Procurement_staff^ORroles=Procurement_admin^EQ" reference_qual_condition="roles=Procurement_staff^ORroles=Procurement_admin^EQ" type="reference"/>
         <element attributes="encode_utf8=false" label="Receiving Location" max_length="32" name="u_op_grn_receiving_loc" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="POI Count" max_length="400" name="u_op_gtn_poi_count" type="string"/>
+        <element label="POI Count" max_length="40" name="u_op_po_grn_poi_count" read_only="true" type="integer"/>
         <index name="index">
             <element name="u_op_grn_purchase_order"/>
         </index>
