@@ -14,7 +14,7 @@
         <description/>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="Vendor form">49b6a88f976c4210bea8b390f053af91</flow_designer_flow>
+        <flow_designer_flow display_value="Vendor Flow">0a8734a497f04210bea8b390f053afae</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -64,14 +64,14 @@
         <sys_created_by>sanuja.kulkarni</sys_created_by>
         <sys_created_on>2024-02-21 10:49:33</sys_created_on>
         <sys_id>183a503c97640210bea8b390f053af85</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Vendor Details Form</sys_name>
         <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_update_name>sc_cat_item_183a503c97640210bea8b390f053af85</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-29 06:30:57</sys_updated_on>
+        <sys_updated_on>2024-03-04 06:31:58</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
@@ -96,9 +96,9 @@
         <sys_created_by>sanuja.kulkarni</sys_created_by>
         <sys_created_on>2024-02-21 10:49:33</sys_created_on>
         <sys_id>915a1cb897640210bea8b390f053afa6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
-        <sys_updated_on>2024-02-21 10:49:33</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 06:29:03</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>
