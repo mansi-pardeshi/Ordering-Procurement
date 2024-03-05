@@ -2,12 +2,12 @@
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name>Order</action_name>
         <active>true</active>
-        <client>true</client>
+        <client>false</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.state == 'approved'</condition>
+        <condition>current.u_op_po_state== 'approved';</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -28,12 +28,11 @@
         <list_style/>
         <messages/>
         <name>Order</name>
-        <onclick>order()</onclick>
+        <onclick/>
         <order>100</order>
-        <script><![CDATA[function order() {
-	g_form.setValue('u_op_po_state', 'ordered');
- //g_form.addInfoMessage('Record state changed to "ordered".');
-}
+        <script><![CDATA[current.u_op_po_state = 'ordered';
+current.update();
+action.setRedirectURL(current);
 ]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -45,7 +44,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ac9ab92497384210bea8b390f053af6a</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Order</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
@@ -53,7 +52,7 @@
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_update_name>sys_ui_action_ac9ab92497384210bea8b390f053af6a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-04 10:48:46</sys_updated_on>
+        <sys_updated_on>2024-03-04 11:43:47</sys_updated_on>
         <table>x_1321711_ordering_purchase_order</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
