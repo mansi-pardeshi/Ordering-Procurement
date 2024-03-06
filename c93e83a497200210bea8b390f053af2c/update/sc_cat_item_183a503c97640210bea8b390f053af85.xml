@@ -56,7 +56,7 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
-        <short_description/>
+        <short_description>Record and evaluate the qualifications and capabilities of potential vendors</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state/>
@@ -64,14 +64,14 @@
         <sys_created_by>sanuja.kulkarni</sys_created_by>
         <sys_created_on>2024-02-21 10:49:33</sys_created_on>
         <sys_id>183a503c97640210bea8b390f053af85</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Vendor Details Form</sys_name>
         <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_update_name>sc_cat_item_183a503c97640210bea8b390f053af85</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-04 06:31:58</sys_updated_on>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-03-06 06:21:11</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>

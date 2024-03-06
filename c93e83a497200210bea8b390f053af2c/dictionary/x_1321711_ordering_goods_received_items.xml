@@ -2,17 +2,17 @@
     <element db_object_id="fdb41bac97200210bea8b390f053af2d" label="Goods Received Items" max_length="40" name="x_1321711_ordering_goods_received_items" type="collection">
         <element attributes="encode_utf8=false" label="GRN" max_length="32" name="u_op_grn_items_grn" read_only="true" reference="x_1321711_ordering_goods_received_notes" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="u_op_grn_items_number" read_only="true" type="string" use_dynamic_default="true"/>
-        <element attributes="encode_utf8=false" label="PO Item" max_length="32" name="u_op_grn_items_po_item" reference="x_1321711_ordering_purchase_order_items" reference_qual="javascript:&quot;u_op_po_items_purchase_order=&quot;+current.u_op_grn_items_grn.u_op_grn_purchase_order;" type="reference" use_reference_qualifier="advanced"/>
+        <element attributes="encode_utf8=false" label="PO Item" mandatory="true" max_length="32" name="u_op_grn_items_po_item" reference="x_1321711_ordering_purchase_order_items" reference_qual="javascript:&quot;u_op_po_items_purchase_order=&quot;+current.u_op_grn_items_grn.u_op_grn_purchase_order;" type="reference" unique="true" use_reference_qualifier="advanced"/>
         <element active="false" attributes="encode_utf8=false" label="Purchase Order Number" max_length="32" name="u_op_grn_items_po_number" reference="x_1321711_ordering_goods_received_notes" type="reference"/>
         <element label="Quantity" max_length="40" name="u_op_grn_items_quantity" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:gs.nowDateTime();" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Received" max_length="40" name="u_op_grn_items_received" type="glide_date_time" use_dynamic_default="true"/>
-        <element attributes="encode_utf8=false" label="Received By" max_length="32" name="u_op_grn_items_received_by" reference="sys_user" reference_qual="emailLIKE@gmail.com^EQ" reference_qual_condition="emailLIKE@gmail.com^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.nowDateTime();" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Received" max_length="40" name="u_op_grn_items_received" read_only="true" type="glide_date_time" use_dynamic_default="true"/>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Received By" max_length="32" name="u_op_grn_items_received_by" reference="sys_user" reference_qual="emailLIKE@gmail.com^EQ" reference_qual_condition="emailLIKE@gmail.com^EQ" type="reference" use_dynamic_default="true"/>
         <element attributes="encode_utf8=false" label="Requested for" max_length="32" name="u_op_grn_items_requested_for" reference="sys_user" type="reference"/>
         <element attributes="omit_sys_original=true" label="Total Cost" max_length="20" name="u_op_grn_items_total_cost" type="currency"/>
         <index name="index">
             <element name="u_op_grn_items_grn"/>
         </index>
-        <index name="index2">
+        <index name="index2" unique="true">
             <element name="u_op_grn_items_po_item"/>
         </index>
         <index name="index3">

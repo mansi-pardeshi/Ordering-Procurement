@@ -18,7 +18,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name/>
+        <name>BR for total cost</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -29,9 +29,7 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/)
 {
-	var po = new GlideRecord('x_1321711_ordering_purchase_order');
-	po.addQuery('u_op_po_number',current.u_op_po_items_purchase_order);
-	// Add your code here
+	g_scratchpad.Total = current.u_op_po_items_total_cost;
 	
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -40,17 +38,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>40e47dac97f44210bea8b390f053af1d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>BR for total cost</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_update_name>sys_script_40e47dac97f44210bea8b390f053af1d</sys_update_name>
-        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
-        <sys_updated_on>2024-03-04 09:17:23</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 09:30:47</sys_updated_on>
         <template>u_op_po_items_vendor=^EQ</template>
-        <when>before</when>
+        <when>before_display</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=40e47dac97f44210bea8b390f053af1d"/>
 </record_update>

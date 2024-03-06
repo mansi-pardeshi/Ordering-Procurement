@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1321711_ordering.TotalCostForPO</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>TotalCostForPO</name>
+        <script><![CDATA[var TotalCostForPO = Class.create();
+TotalCostForPO.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	totalCost:function()
+	{
+		var id = this.getParameter('sysparm_id');
+		var gr = new GlideRecord('x_1321711_ordering_purchase_order_items');
+		gr.addQuery('u_op_po_items_purchase_order.u_op_po_numberSTARTSWITH'+id);
+		gr.query();
+
+		var total = 0;
+		while(gr.next())
+		{
+			total = total + Number(gr.u_op_po_items_total_cost);
+		}
+
+		return total;
+	},
+
+    type: 'TotalCostForPO'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-06 09:38:30</sys_created_on>
+        <sys_id>7220185197b84210bea8b390f053afad</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>TotalCostForPO</sys_name>
+        <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_update_name>sys_script_include_7220185197b84210bea8b390f053afad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 09:57:34</sys_updated_on>
+    </sys_script_include>
+</record_update>

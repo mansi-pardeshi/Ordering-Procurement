@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="d400dbe497200210bea8b390f053af56" label="Asset Inventory" max_length="40" name="x_1321711_ordering_asset_inventory" type="collection">
         <element attributes="encode_utf8=false" label="Asset Assigned To" max_length="32" name="u_op_ai_asset_assigned_to" reference="sys_user" type="reference"/>
-        <element label="Available" max_length="40" name="u_op_ai_available" type="boolean"/>
-        <element attributes="encode_utf8=false" label="Company" max_length="32" name="u_op_ai_company" reference="cmdb_multisource_deny_class" type="reference"/>
+        <element default="true" label="Available" max_length="40" name="u_op_ai_available" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Company" max_length="32" name="u_op_ai_company" reference="core_company" reference_qual="null" reference_qual_condition="null" type="reference"/>
         <element attributes="omit_sys_original=true" label="Cost" max_length="20" name="u_op_ai_cost" type="currency"/>
-        <element attributes="encode_utf8=false" label="Department" max_length="32" name="u_op_ai_department" reference="cmdb_multisource_deny_class" type="reference"/>
-        <element attributes="omit_sys_original=true" label="Depreciation Amount" max_length="20" name="u_op_ai_depreciation_amount" type="currency"/>
-        <element attributes="edge_encryption_enabled=true" display="true" label="Display Name" max_length="40" name="u_op_ai_display_name" type="string"/>
-        <element attributes="encode_utf8=false" label="Model Category" max_length="32" name="u_op_ai_model_category" reference="cmdb_multisource_deny_class" type="reference"/>
+        <element attributes="encode_utf8=false" label="Department" max_length="32" name="u_op_ai_department" reference="cmn_department" type="reference"/>
+        <element attributes="omit_sys_original=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.u_op_ai_cost-current.u_op_ai_salvage_value;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Depreciation Amount" max_length="20" name="u_op_ai_depreciation_amount" type="currency" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Display Name" max_length="4000" name="u_op_ai_display_name" type="string"/>
+        <element attributes="encode_utf8=false" label="Model Category" max_length="32" name="u_op_ai_model_category" reference="sc_category" reference_qual="sc_catalog=a0563ad897600210bea8b390f053af91^parent=dc66fad897600210bea8b390f053af9e^EQ" reference_qual_condition="sc_catalog=a0563ad897600210bea8b390f053af91^parent=dc66fad897600210bea8b390f053af9e^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="u_op_ai_number" read_only="true" type="string" use_dynamic_default="true"/>
-        <element attributes="encode_utf8=false" label="Purchase Order Number" max_length="32" name="u_op_ai_po_number" reference="cmdb_multisource_deny_class" type="reference"/>
+        <element attributes="encode_utf8=false" label="Purchase Order Number" max_length="32" name="u_op_ai_po_number" reference="x_1321711_ordering_purchase_order" type="reference"/>
         <element attributes="encode_utf8=false" label="Request" max_length="32" name="u_op_ai_request" reference="sc_request" type="reference"/>
         <element attributes="encode_utf8=false" label="Requested Item" max_length="32" name="u_op_ai_requested_item" reference="sc_req_item" type="reference"/>
         <element attributes="omit_sys_original=true" label="Resale Price" max_length="20" name="u_op_ai_resale_price" type="currency"/>
         <element attributes="omit_sys_original=true" label="Salvage Value" max_length="20" name="u_op_ai_salvage_value" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Serial Number" max_length="40" name="u_op_ai_serial_number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_op_ai_state" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="&#9;in_stock" label="State" max_length="40" name="u_op_ai_state" type="string">
             <choice>
-                <element inactive_on_update="false" label="On order" sequence="0" value="on_order"/>
+                <element inactive="true" inactive_on_update="true" label="On order" sequence="0" value="on_order"/>
                 <element inactive_on_update="false" label="In stock" sequence="1" value="in_stock"/>
                 <element inactive_on_update="false" label="In use" sequence="2" value="in_use"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Useful Life" max_length="40" name="u_op_ai_useful_life" type="string"/>
-        <element attributes="encode_utf8=false" label="Vendor" max_length="32" name="u_op_ai_vendor" reference="cmdb_multisource_deny_class" type="reference"/>
+        <element attributes="encode_utf8=false" label="Vendor" max_length="32" name="u_op_ai_vendor" reference="x_1321711_ordering_vendor_profile" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Warranty Exapiration" max_length="40" name="u_op_ai_warranty_expiration" type="glide_date"/>
         <index name="index">
             <element name="u_op_ai_asset_assigned_to"/>
@@ -35,18 +35,21 @@
             <element name="u_op_ai_department"/>
         </index>
         <index name="index4">
-            <element name="u_op_ai_model_category"/>
+            <element name="u_op_ai_display_name"/>
         </index>
         <index name="index5">
-            <element name="u_op_ai_po_number"/>
+            <element name="u_op_ai_model_category"/>
         </index>
         <index name="index6">
-            <element name="u_op_ai_request"/>
+            <element name="u_op_ai_po_number"/>
         </index>
         <index name="index7">
-            <element name="u_op_ai_requested_item"/>
+            <element name="u_op_ai_request"/>
         </index>
         <index name="index8">
+            <element name="u_op_ai_requested_item"/>
+        </index>
+        <index name="index9">
             <element name="u_op_ai_vendor"/>
         </index>
     </element>

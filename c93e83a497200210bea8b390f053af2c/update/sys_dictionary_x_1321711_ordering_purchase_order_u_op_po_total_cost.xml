@@ -5,7 +5,7 @@
         <attributes>omit_sys_original=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>PO Total Cost</column_label>
@@ -33,7 +33,7 @@
         <name>x_1321711_ordering_purchase_order</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -52,8 +52,8 @@
         <sys_policy/>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_update_name>sys_dictionary_x_1321711_ordering_purchase_order_u_op_po_total_cost</sys_update_name>
-        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
-        <sys_updated_on>2024-02-28 11:09:54</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 10:06:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

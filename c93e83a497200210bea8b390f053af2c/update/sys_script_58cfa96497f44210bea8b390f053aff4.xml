@@ -5,8 +5,8 @@
         <action_delete>false</action_delete>
         <action_insert>true</action_insert>
         <action_query>false</action_query>
-        <action_update>false</action_update>
-        <active>true</active>
+        <action_update>true</action_update>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -18,8 +18,8 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>GRNI Count</name>
-        <order>100</order>
+        <name>Remaining Count</name>
+        <order>500</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -29,19 +29,11 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) 
 {
-	var grni = new GlideRecord('x_1321711_ordering_goods_received_items');
-	grni.addQuery('u_op_grn_items_grn',current.u_op_grn_number);
-	grni.query();
-	var count = 0;
-	while(grni.next())
-	{
-		
-		count+=1;
-		alert('New GRN');
-		
-	}
 	
-	current.u_op_grn_grni_count = count;
+	
+	current.u_op_grn_grni_count = current.u_op_po_grn_poi_count;
+	
+	current.update();
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -50,15 +42,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>58cfa96497f44210bea8b390f053aff4</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>GRNI Count</sys_name>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>Remaining Count</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_update_name>sys_script_58cfa96497f44210bea8b390f053aff4</sys_update_name>
         <sys_updated_by>sanuja.kulkarni</sys_updated_by>
-        <sys_updated_on>2024-03-04 11:07:52</sys_updated_on>
+        <sys_updated_on>2024-03-05 09:13:45</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

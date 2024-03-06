@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_form_uiaction_layout">
+    <sys_aw_form_uiaction_layout action="DELETE">
+        <active>true</active>
+        <fixed_button_number>0</fixed_button_number>
+        <layout_name>demo</layout_name>
+        <specificity>13</specificity>
+        <sys_class_name>sys_aw_form_uiaction_layout</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 11:24:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8e65162497b84210bea8b390f053af29</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>demo</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_update_name>sys_aw_form_uiaction_layout_8e65162497b84210bea8b390f053af29</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 11:25:20</sys_updated_on>
+        <table>x_1321711_ordering_purchase_order</table>
+        <view display_value="Default view" name="NULL">Default view</view>
+        <workspace display_value="Agent Workspace">7b24ceae5304130084acddeeff7b12a3</workspace>
+    </sys_aw_form_uiaction_layout>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</application>
+        <file_path/>
+        <instance_id>245b92311b36b150699443f4bd4bcb1c</instance_id>
+        <instance_name>dev228945</instance_name>
+        <name>sys_aw_form_uiaction_layout_8e65162497b84210bea8b390f053af29</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_form_uiaction_layout"><sys_aw_form_uiaction_layout action="INSERT_OR_UPDATE"><active>true</active><fixed_button_number>0</fixed_button_number><layout_name>demo</layout_name><specificity>13</specificity><sys_class_name>sys_aw_form_uiaction_layout</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-04 11:24:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8e65162497b84210bea8b390f053af29</sys_id><sys_mod_count>2</sys_mod_count><sys_name>demo</sys_name><sys_overrides/><sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package><sys_policy/><sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope><sys_update_name>sys_aw_form_uiaction_layout_8e65162497b84210bea8b390f053af29</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-04 11:25:20</sys_updated_on><table>x_1321711_ordering_purchase_order</table><view display_value="Default view" name="NULL">Default view</view><workspace display_value="Agent Workspace">7b24ceae5304130084acddeeff7b12a3</workspace></sys_aw_form_uiaction_layout></record_update>]]></payload>
+        <payload_hash>1013770755</payload_hash>
+        <record_name>demo</record_name>
+        <reverted_from/>
+        <source>6e5dcccb97e84210bea8b390f053afeb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 11:25:20</sys_created_on>
+        <sys_id>9a951a2497b84210bea8b390f053af81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e09360ca90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 11:25:20</sys_updated_on>
+        <type>UI Action Layout</type>
+        <update_guid>52951a24e2b8421028f0a5c28fa96781</update_guid>
+        <update_guid_history>52951a24e2b8421028f0a5c28fa96781:1013770755,7e859624fcb842102093a02ab8b00748:-75731742,2e755624bab84210b6167a9121111657:1011918968</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 11:25:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_aw_form_uiaction_layout">sys_aw_form_uiaction_layout</sys_db_object>
+        <sys_id>63455c49112442d0b5d8f104b32cf900</sys_id>
+        <sys_metadata>8e65162497b84210bea8b390f053af29</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>demo</sys_name>
+        <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_scope_delete display_value="">1f382b1817a8495c9d5e8fb0c45ae9e9</sys_scope_delete>
+        <sys_update_name>sys_aw_form_uiaction_layout_8e65162497b84210bea8b390f053af29</sys_update_name>
+        <sys_update_version display_value="sys_aw_form_uiaction_layout_8e65162497b84210bea8b390f053af29">9a951a2497b84210bea8b390f053af81</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 11:25:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

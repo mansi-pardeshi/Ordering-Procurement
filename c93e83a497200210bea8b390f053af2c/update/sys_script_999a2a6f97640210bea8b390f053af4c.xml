@@ -44,6 +44,7 @@
 	}
 	
 	current.u_op_po_grn_poi_count = count;
+	current.u_op_grn_grni_count = count;
 	
 
 })(current, previous);]]></script>
@@ -53,7 +54,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>999a2a6f97640210bea8b390f053af4c</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>POI Count</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
@@ -61,7 +62,7 @@
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_update_name>sys_script_999a2a6f97640210bea8b390f053af4c</sys_update_name>
         <sys_updated_by>sanuja.kulkarni</sys_updated_by>
-        <sys_updated_on>2024-03-01 12:46:41</sys_updated_on>
+        <sys_updated_on>2024-03-05 09:16:06</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

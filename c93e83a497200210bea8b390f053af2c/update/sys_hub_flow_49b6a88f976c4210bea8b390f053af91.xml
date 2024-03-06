@@ -10,7 +10,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>vendor_form</internal_name>
-        <label_cache>[{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Service Catalog_1.request_item.approval","label":"Trigger - Service Catalog➛Requested Item Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"sc_req_item","column_name":"approval","choices":[{"label":"Not Yet Requested","rawLabel":"Not Yet Requested","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"not requested","parameters":{"name":"task"}},{"label":"Requested","rawLabel":"Requested","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"requested","parameters":{"name":"task"}},{"label":"Approved","rawLabel":"Approved","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"approved","parameters":{"name":"task"}},{"label":"Rejected","rawLabel":"Rejected","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"rejected","parameters":{"name":"task"}}]},{"name":"{{static.f6b5ae9897200210bea8b390f053afb5}}","label":"Parth Poriya","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Service Catalog_1.table_name","label":"Trigger - Service Catalog➛Table Name","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Service Catalog_1.request_item.request.request_state","label":"Trigger - Service Catalog➛Requested Item Record➛Request➛Request state","reference":"","reference_display":"Request state","type":"choice","base_type":"choice","parent_table_name":"sc_request","column_name":"request_state","choices":[{"label":"-- None --","rawLabel":"-- None --","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":""},{"label":"Pending Approval","rawLabel":"Pending Approval","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"requested","parameters":{"name":"sc_request"}},{"label":"Approved","rawLabel":"Approved","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"in_process","parameters":{"name":"sc_request"}},{"label":"Closed Complete","rawLabel":"Closed Complete","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"closed_complete","parameters":{"name":"sc_request"}},{"label":"Closed Incomplete","rawLabel":"Closed Incomplete","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"closed_incomplete","parameters":{"name":"sc_request"}},{"label":"Closed Cancelled","rawLabel":"Closed Cancelled","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"closed_cancelled","parameters":{"name":"sc_request"}},{"label":"Closed Rejected","rawLabel":"Closed Rejected","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"closed_rejected","parameters":{"name":"sc_request"}},{"label":"Closed Skipped","rawLabel":"Closed Skipped","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"closed_skipped","parameters":{"name":"sc_request"}}]},{"name":"Service Catalog_1.request_item.request.requested_for.manager","label":"Trigger - Service Catalog➛Requested Item Record➛Request➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Service Catalog_1.request_item.request.approval","label":"Trigger - Service Catalog➛Requested Item Record➛Request➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"sc_request","column_name":"approval","choices":[{"label":"Not Yet Requested","rawLabel":"Not Yet Requested","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"not requested","parameters":{"name":"task"}},{"label":"Requested","rawLabel":"Requested","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"requested","parameters":{"name":"task"}},{"label":"Approved","rawLabel":"Approved","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"approved","parameters":{"name":"task"}},{"label":"Rejected","rawLabel":"Rejected","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"rejected","parameters":{"name":"task"}}]},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.requested_for.manager","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"459957e7-2181-4508-86c1-731995140c89.Catalog Task","label":"2 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.cat_item.sys_name","label":"Trigger - Service Catalog➛Requested Item Record➛Item➛Display name","reference":"","reference_display":"Display name","type":"string","base_type":"string","parent_table_name":"sc_cat_item","column_name":"sys_name"}]</label_cache>
+        <label_cache>[{"name":"Service Catalog_1.request_item.number","label":"Trigger - Service Catalog➛Requested Item Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sc_req_item","column_name":"number"},{"name":"Service Catalog_1.request_item.requested_for.department","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Department","reference":"cmn_department","reference_display":"Department","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"department"},{"name":"Service Catalog_1.request_item.requested_for.company","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"company"},{"name":"Service Catalog_1.request_item.cat_item.sys_name","label":"Trigger - Service Catalog➛Requested Item Record➛Item➛Display name","reference":"","reference_display":"Display name","type":"string","base_type":"string","parent_table_name":"sc_cat_item","column_name":"sys_name"},{"name":"459957e7-2181-4508-86c1-731995140c89.Catalog Task","label":"2 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"Service Catalog_1.request_item.requested_for.manager","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.request.approval","label":"Trigger - Service Catalog➛Requested Item Record➛Request➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"sc_request","column_name":"approval","choices":[{"image":"","used":false,"rawLabel":"Not Yet Requested","selected":false,"label":"Not Yet Requested","missing":false,"reference":false,"value":"not requested","parameters":{"name":"task"}},{"image":"","used":false,"rawLabel":"Requested","selected":false,"label":"Requested","missing":false,"reference":false,"value":"requested","parameters":{"name":"task"}},{"image":"","used":false,"rawLabel":"Approved","selected":false,"label":"Approved","missing":false,"reference":false,"value":"approved","parameters":{"name":"task"}},{"image":"","used":false,"rawLabel":"Rejected","selected":false,"label":"Rejected","missing":false,"reference":false,"value":"rejected","parameters":{"name":"task"}}]},{"name":"Service Catalog_1.request_item.request.requested_for.manager","label":"Trigger - Service Catalog➛Requested Item Record➛Request➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Service Catalog_1.request_item.request.request_state","label":"Trigger - Service Catalog➛Requested Item Record➛Request➛Request state","reference":"","reference_display":"Request state","type":"choice","base_type":"choice","parent_table_name":"sc_request","column_name":"request_state","choices":[{"label":"-- None --","image":"","used":false,"rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"image":"","used":false,"rawLabel":"Pending Approval","selected":false,"label":"Pending Approval","missing":false,"reference":false,"value":"requested","parameters":{"name":"sc_request"}},{"image":"","used":false,"rawLabel":"Approved","selected":false,"label":"Approved","missing":false,"reference":false,"value":"in_process","parameters":{"name":"sc_request"}},{"image":"","used":false,"rawLabel":"Closed Complete","selected":false,"label":"Closed Complete","missing":false,"reference":false,"value":"closed_complete","parameters":{"name":"sc_request"}},{"image":"","used":false,"rawLabel":"Closed Incomplete","selected":false,"label":"Closed Incomplete","missing":false,"reference":false,"value":"closed_incomplete","parameters":{"name":"sc_request"}},{"image":"","used":false,"rawLabel":"Closed Cancelled","selected":false,"label":"Closed Cancelled","missing":false,"reference":false,"value":"closed_cancelled","parameters":{"name":"sc_request"}},{"image":"","used":false,"rawLabel":"Closed Rejected","selected":false,"label":"Closed Rejected","missing":false,"reference":false,"value":"closed_rejected","parameters":{"name":"sc_request"}},{"image":"","used":false,"rawLabel":"Closed Skipped","selected":false,"label":"Closed Skipped","missing":false,"reference":false,"value":"closed_skipped","parameters":{"name":"sc_request"}}]},{"name":"Service Catalog_1.table_name","label":"Trigger - Service Catalog➛Table Name","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"{{static.f6b5ae9897200210bea8b390f053afb5}}","label":"Parth Poriya","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Service Catalog_1.request_item.approval","label":"Trigger - Service Catalog➛Requested Item Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"sc_req_item","column_name":"approval","choices":[{"image":"","used":false,"rawLabel":"Not Yet Requested","selected":false,"label":"Not Yet Requested","missing":false,"reference":false,"value":"not requested","parameters":{"name":"task"}},{"image":"","used":false,"rawLabel":"Requested","selected":false,"label":"Requested","missing":false,"reference":false,"value":"requested","parameters":{"name":"task"}},{"image":"","used":false,"rawLabel":"Approved","selected":false,"label":"Approved","missing":false,"reference":false,"value":"approved","parameters":{"name":"task"}},{"image":"","used":false,"rawLabel":"Rejected","selected":false,"label":"Rejected","missing":false,"reference":false,"value":"rejected","parameters":{"name":"task"}}]},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Service Catalog_1.request_item.cat_item","label":"Trigger - Service Catalog➛Requested Item Record➛Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"cat_item"},{"name":"68648d0c-8eba-423b-8dbe-8c54fdb19894.Record","label":"4 - Look Up Record➛Asset Inventory Record","reference":"x_1321711_ordering_asset_inventory","reference_display":"Asset Inventory","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.requested_for","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"requested_for"},{"name":"Service Catalog_1.request_item.short_description","label":"Trigger - Service Catalog➛Requested Item Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"sc_req_item","column_name":"short_description"}]</label_cache>
         <master_snapshot>78da680797ac4210bea8b390f053af03</master_snapshot>
         <name>Final Service Request (Ordering and Procurement)</name>
         <natlang/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>49b6a88f976c4210bea8b390f053af91</sys_id>
-        <sys_mod_count>63</sys_mod_count>
+        <sys_mod_count>106</sys_mod_count>
         <sys_name>Final Service Request (Ordering and Procurement)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ordering and Procurement" source="x_1321711_ordering">c93e83a497200210bea8b390f053af2c</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_update_name>sys_hub_flow_49b6a88f976c4210bea8b390f053af91</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 10:19:18</sys_updated_on>
+        <sys_updated_on>2024-03-06 11:24:35</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=49b6a88f976c4210bea8b390f053af91"/>
@@ -70,10 +70,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-28 11:47:48</sys_created_on>
         <sys_id>e2cae40797ac4210bea8b390f053af88</sys_id>
-        <sys_mod_count>53</sys_mod_count>
+        <sys_mod_count>92</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 09:10:20</sys_updated_on>
+        <sys_updated_on>2024-03-06 11:24:30</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -158,14 +158,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-28 11:47:48</sys_created_on>
         <sys_id>22cae40797ac4210bea8b390f053af7e</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>55</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 09:10:20</sys_updated_on>
+        <sys_updated_on>2024-03-06 11:24:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -241,14 +241,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-28 11:47:48</sys_created_on>
         <sys_id>aecae40797ac4210bea8b390f053af81</sys_id>
-        <sys_mod_count>105</sys_mod_count>
+        <sys_mod_count>183</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 09:10:20</sys_updated_on>
+        <sys_updated_on>2024-03-06 11:24:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -263,7 +263,7 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=49b6a88f976c4210bea8b390f053af91"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=49b6a88f976c4210bea8b390f053af91"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=49b6a88f976c4210bea8b390f053af91^sys_idNOT IN1278d62b97240210bea8b390f053af67,3097b92797a00210bea8b390f053af2c,a277daa797240210bea8b390f053af36,c9ae7d2f97a00210bea8b390f053af07"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=49b6a88f976c4210bea8b390f053af91^sys_idNOT IN1278d62b97240210bea8b390f053af67,3097b92797a00210bea8b390f053af2c,a277daa797240210bea8b390f053af36,b0fdc6b097700210bea8b390f053af0e,b8fdc6b097700210bea8b390f053af15,c9ae7d2f97a00210bea8b390f053af07"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -272,16 +272,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Final Service Request (Ordering and Procurement)">49b6a88f976c4210bea8b390f053af91</flow>
-        <order>5</order>
+        <order>7</order>
         <parent_ui_id>25667a9a-fdd9-41be-91a3-a86799a902dd</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-01 09:03:58</sys_created_on>
         <sys_id>1278d62b97240210bea8b390f053af67</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>110</sys_mod_count>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
-        <sys_updated_by>parth.poriya</sys_updated_by>
-        <sys_updated_on>2024-03-01 10:13:12</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 11:24:30</sys_updated_on>
         <ui_id>3e5497b5-a109-4535-a4ec-6e7e738425ad</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1278d62b97240210bea8b390f053af67"/>
@@ -366,10 +366,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-01 06:40:14</sys_created_on>
         <sys_id>3097b92797a00210bea8b390f053af2c</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>128</sys_mod_count>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
-        <sys_updated_by>parth.poriya</sys_updated_by>
-        <sys_updated_on>2024-03-01 10:13:12</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 11:24:30</sys_updated_on>
         <ui_id>459957e7-2181-4508-86c1-731995140c89</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3097b92797a00210bea8b390f053af2c"/>
@@ -409,9 +409,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-01 06:40:14</sys_created_on>
         <sys_id>b097b92797a00210bea8b390f053af30</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 07:11:07</sys_updated_on>
+        <sys_updated_on>2024-03-06 11:24:15</sys_updated_on>
         <value>assignment_group={"display":"Procurement","value":"8a4cb6d4c61122780043b1642efcd52b","sys_id":"8a4cb6d4c61122780043b1642efcd52b"}^description=Pull from Stock or Order from Vendor if required. </value>
         <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
     </sys_variable_value>
@@ -436,9 +436,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-01 06:40:14</sys_created_on>
         <sys_id>f097b92797a00210bea8b390f053af2f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 06:40:14</sys_updated_on>
+        <sys_updated_on>2024-03-06 11:24:15</sys_updated_on>
         <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
         <value/>
     </sys_element_mapping>
@@ -500,16 +500,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Final Service Request (Ordering and Procurement)">49b6a88f976c4210bea8b390f053af91</flow>
-        <order>4</order>
+        <order>6</order>
         <parent_ui_id>25667a9a-fdd9-41be-91a3-a86799a902dd</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-01 08:59:37</sys_created_on>
         <sys_id>a277daa797240210bea8b390f053af36</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>118</sys_mod_count>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
-        <sys_updated_by>parth.poriya</sys_updated_by>
-        <sys_updated_on>2024-03-01 10:13:12</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 11:24:30</sys_updated_on>
         <ui_id>c62a83f9-5b10-44f2-9cdb-b93e0c8784dd</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a277daa797240210bea8b390f053af36"/>
@@ -583,6 +583,142 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Final Service Request (Ordering and Procurement)">49b6a88f976c4210bea8b390f053af91</flow>
+        <order>4</order>
+        <parent_ui_id>25667a9a-fdd9-41be-91a3-a86799a902dd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-03-05 05:30:24</sys_created_on>
+        <sys_id>b0fdc6b097700210bea8b390f053af0e</sys_id>
+        <sys_mod_count>94</sys_mod_count>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 11:24:30</sys_updated_on>
+        <ui_id>68648d0c-8eba-423b-8dbe-8c54fdb19894</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b0fdc6b097700210bea8b390f053af0e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b0fdc6b097700210bea8b390f053af0e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-03-05 05:30:24</sys_created_on>
+        <sys_id>7cfdc6b097700210bea8b390f053af10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-03-05 05:30:24</sys_updated_on>
+        <value>x_1321711_ordering_asset_inventory</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b0fdc6b097700210bea8b390f053af0e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>b0fdc6b097700210bea8b390f053af0e</id>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-03-05 05:30:24</sys_created_on>
+        <sys_id>f0fdc6b097700210bea8b390f053af10</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 06:54:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>u_op_ai_display_name={{Service Catalog_1.request_item.short_description}}^u_op_ai_available=true</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>b0fdc6b097700210bea8b390f053af0e</id>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-03-05 05:30:24</sys_created_on>
+        <sys_id>f8fdc6b097700210bea8b390f053af10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-03-05 05:30:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b0fdc6b097700210bea8b390f053af0e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b0fdc6b097700210bea8b390f053af0e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Final Service Request (Ordering and Procurement)">49b6a88f976c4210bea8b390f053af91</flow>
+        <order>5</order>
+        <parent_ui_id>25667a9a-fdd9-41be-91a3-a86799a902dd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-03-05 05:30:24</sys_created_on>
+        <sys_id>b8fdc6b097700210bea8b390f053af15</sys_id>
+        <sys_mod_count>94</sys_mod_count>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 11:24:30</sys_updated_on>
+        <ui_id>e4afe594-327b-4d30-89f2-862171fef984</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b8fdc6b097700210bea8b390f053af15"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b8fdc6b097700210bea8b390f053af15</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-03-05 05:30:24</sys_created_on>
+        <sys_id>78fdc6b097700210bea8b390f053af17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-03-05 05:30:24</sys_updated_on>
+        <value>x_1321711_ordering_asset_inventory</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b8fdc6b097700210bea8b390f053af15"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b8fdc6b097700210bea8b390f053af15</id>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-03-05 05:30:24</sys_created_on>
+        <sys_id>f4fdc6b097700210bea8b390f053af17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-03-05 05:30:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{68648d0c-8eba-423b-8dbe-8c54fdb19894.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b8fdc6b097700210bea8b390f053af15</id>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-03-05 05:30:24</sys_created_on>
+        <sys_id>70fdc6b097700210bea8b390f053af17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-03-05 05:30:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>b8fdc6b097700210bea8b390f053af15</id>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-03-05 05:30:24</sys_created_on>
+        <sys_id>34fdc6b097700210bea8b390f053af17</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 10:47:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>u_op_ai_asset_assigned_to={{Service Catalog_1.request_item.requested_for}}^u_op_ai_state=in_use^u_op_ai_available=false^u_op_ai_request={{Service Catalog_1.request_item.request}}^u_op_ai_requested_item={{Service Catalog_1.request_item}}^u_op_ai_company={{Service Catalog_1.request_item.requested_for.company}}^u_op_ai_department={{Service Catalog_1.request_item.requested_for.department}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b8fdc6b097700210bea8b390f053af15"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b8fdc6b097700210bea8b390f053af15"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
         <action_type_parent/>
         <comment/>
@@ -594,10 +730,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-01 07:11:07</sys_created_on>
         <sys_id>c9ae7d2f97a00210bea8b390f053af07</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>120</sys_mod_count>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
-        <sys_updated_by>parth.poriya</sys_updated_by>
-        <sys_updated_on>2024-03-01 10:13:12</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 11:24:30</sys_updated_on>
         <ui_id>7b8febed-bb24-4a68-b835-cee595555e44</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c9ae7d2f97a00210bea8b390f053af07"/>
@@ -692,10 +828,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-29 07:07:57</sys_created_on>
         <sys_id>3854b8d79720c210bea8b390f053afbc</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>87</sys_mod_count>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 09:10:20</sys_updated_on>
+        <sys_updated_on>2024-03-06 11:24:30</sys_updated_on>
         <ui_id>25667a9a-fdd9-41be-91a3-a86799a902dd</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -805,7 +941,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>vendor_form</internal_name>
-        <label_cache>[{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Service Catalog_1.request_item.approval","label":"Trigger - Service Catalog➛Requested Item Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"sc_req_item","column_name":"approval","choices":[{"label":"Not Yet Requested","rawLabel":"Not Yet Requested","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"not requested","parameters":{"name":"task"}},{"label":"Requested","rawLabel":"Requested","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"requested","parameters":{"name":"task"}},{"label":"Approved","rawLabel":"Approved","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"approved","parameters":{"name":"task"}},{"label":"Rejected","rawLabel":"Rejected","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"rejected","parameters":{"name":"task"}}]},{"name":"{{static.f6b5ae9897200210bea8b390f053afb5}}","label":"Parth Poriya","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Service Catalog_1.table_name","label":"Trigger - Service Catalog➛Table Name","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Service Catalog_1.request_item.request.request_state","label":"Trigger - Service Catalog➛Requested Item Record➛Request➛Request state","reference":"","reference_display":"Request state","type":"choice","base_type":"choice","parent_table_name":"sc_request","column_name":"request_state","choices":[{"label":"-- None --","rawLabel":"-- None --","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":""},{"label":"Pending Approval","rawLabel":"Pending Approval","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"requested","parameters":{"name":"sc_request"}},{"label":"Approved","rawLabel":"Approved","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"in_process","parameters":{"name":"sc_request"}},{"label":"Closed Complete","rawLabel":"Closed Complete","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"closed_complete","parameters":{"name":"sc_request"}},{"label":"Closed Incomplete","rawLabel":"Closed Incomplete","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"closed_incomplete","parameters":{"name":"sc_request"}},{"label":"Closed Cancelled","rawLabel":"Closed Cancelled","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"closed_cancelled","parameters":{"name":"sc_request"}},{"label":"Closed Rejected","rawLabel":"Closed Rejected","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"closed_rejected","parameters":{"name":"sc_request"}},{"label":"Closed Skipped","rawLabel":"Closed Skipped","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"closed_skipped","parameters":{"name":"sc_request"}}]},{"name":"Service Catalog_1.request_item.request.requested_for.manager","label":"Trigger - Service Catalog➛Requested Item Record➛Request➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Service Catalog_1.request_item.request.approval","label":"Trigger - Service Catalog➛Requested Item Record➛Request➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"sc_request","column_name":"approval","choices":[{"label":"Not Yet Requested","rawLabel":"Not Yet Requested","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"not requested","parameters":{"name":"task"}},{"label":"Requested","rawLabel":"Requested","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"requested","parameters":{"name":"task"}},{"label":"Approved","rawLabel":"Approved","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"approved","parameters":{"name":"task"}},{"label":"Rejected","rawLabel":"Rejected","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"rejected","parameters":{"name":"task"}}]},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.requested_for.manager","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"459957e7-2181-4508-86c1-731995140c89.Catalog Task","label":"2 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.cat_item.sys_name","label":"Trigger - Service Catalog➛Requested Item Record➛Item➛Display name","reference":"","reference_display":"Display name","type":"string","base_type":"string","parent_table_name":"sc_cat_item","column_name":"sys_name"}]</label_cache>
+        <label_cache>[{"name":"Service Catalog_1.request_item.number","label":"Trigger - Service Catalog➛Requested Item Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sc_req_item","column_name":"number"},{"name":"Service Catalog_1.request_item.requested_for.department","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Department","reference":"cmn_department","reference_display":"Department","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"department"},{"name":"Service Catalog_1.request_item.requested_for.company","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"company"},{"name":"Service Catalog_1.request_item.cat_item.sys_name","label":"Trigger - Service Catalog➛Requested Item Record➛Item➛Display name","reference":"","reference_display":"Display name","type":"string","base_type":"string","parent_table_name":"sc_cat_item","column_name":"sys_name"},{"name":"459957e7-2181-4508-86c1-731995140c89.Catalog Task","label":"2 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"Service Catalog_1.request_item.requested_for.manager","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.request.approval","label":"Trigger - Service Catalog➛Requested Item Record➛Request➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"sc_request","column_name":"approval","choices":[{"image":"","used":false,"rawLabel":"Not Yet Requested","selected":false,"label":"Not Yet Requested","missing":false,"reference":false,"value":"not requested","parameters":{"name":"task"}},{"image":"","used":false,"rawLabel":"Requested","selected":false,"label":"Requested","missing":false,"reference":false,"value":"requested","parameters":{"name":"task"}},{"image":"","used":false,"rawLabel":"Approved","selected":false,"label":"Approved","missing":false,"reference":false,"value":"approved","parameters":{"name":"task"}},{"image":"","used":false,"rawLabel":"Rejected","selected":false,"label":"Rejected","missing":false,"reference":false,"value":"rejected","parameters":{"name":"task"}}]},{"name":"Service Catalog_1.request_item.request.requested_for.manager","label":"Trigger - Service Catalog➛Requested Item Record➛Request➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Service Catalog_1.request_item.request.request_state","label":"Trigger - Service Catalog➛Requested Item Record➛Request➛Request state","reference":"","reference_display":"Request state","type":"choice","base_type":"choice","parent_table_name":"sc_request","column_name":"request_state","choices":[{"label":"-- None --","image":"","used":false,"rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"image":"","used":false,"rawLabel":"Pending Approval","selected":false,"label":"Pending Approval","missing":false,"reference":false,"value":"requested","parameters":{"name":"sc_request"}},{"image":"","used":false,"rawLabel":"Approved","selected":false,"label":"Approved","missing":false,"reference":false,"value":"in_process","parameters":{"name":"sc_request"}},{"image":"","used":false,"rawLabel":"Closed Complete","selected":false,"label":"Closed Complete","missing":false,"reference":false,"value":"closed_complete","parameters":{"name":"sc_request"}},{"image":"","used":false,"rawLabel":"Closed Incomplete","selected":false,"label":"Closed Incomplete","missing":false,"reference":false,"value":"closed_incomplete","parameters":{"name":"sc_request"}},{"image":"","used":false,"rawLabel":"Closed Cancelled","selected":false,"label":"Closed Cancelled","missing":false,"reference":false,"value":"closed_cancelled","parameters":{"name":"sc_request"}},{"image":"","used":false,"rawLabel":"Closed Rejected","selected":false,"label":"Closed Rejected","missing":false,"reference":false,"value":"closed_rejected","parameters":{"name":"sc_request"}},{"image":"","used":false,"rawLabel":"Closed Skipped","selected":false,"label":"Closed Skipped","missing":false,"reference":false,"value":"closed_skipped","parameters":{"name":"sc_request"}}]},{"name":"Service Catalog_1.table_name","label":"Trigger - Service Catalog➛Table Name","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"{{static.f6b5ae9897200210bea8b390f053afb5}}","label":"Parth Poriya","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Service Catalog_1.request_item.approval","label":"Trigger - Service Catalog➛Requested Item Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"sc_req_item","column_name":"approval","choices":[{"image":"","used":false,"rawLabel":"Not Yet Requested","selected":false,"label":"Not Yet Requested","missing":false,"reference":false,"value":"not requested","parameters":{"name":"task"}},{"image":"","used":false,"rawLabel":"Requested","selected":false,"label":"Requested","missing":false,"reference":false,"value":"requested","parameters":{"name":"task"}},{"image":"","used":false,"rawLabel":"Approved","selected":false,"label":"Approved","missing":false,"reference":false,"value":"approved","parameters":{"name":"task"}},{"image":"","used":false,"rawLabel":"Rejected","selected":false,"label":"Rejected","missing":false,"reference":false,"value":"rejected","parameters":{"name":"task"}}]},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Service Catalog_1.request_item.cat_item","label":"Trigger - Service Catalog➛Requested Item Record➛Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"cat_item"},{"name":"68648d0c-8eba-423b-8dbe-8c54fdb19894.Record","label":"4 - Look Up Record➛Asset Inventory Record","reference":"x_1321711_ordering_asset_inventory","reference_display":"Asset Inventory","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.requested_for","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"requested_for"},{"name":"Service Catalog_1.request_item.short_description","label":"Trigger - Service Catalog➛Requested Item Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"sc_req_item","column_name":"short_description"}]</label_cache>
         <master>true</master>
         <name>Final Service Request (Ordering and Procurement)</name>
         <natlang/>
@@ -822,7 +958,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>78da680797ac4210bea8b390f053af03</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -830,7 +966,7 @@
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 09:10:19</sys_updated_on>
+        <sys_updated_on>2024-03-06 11:24:29</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=78da680797ac4210bea8b390f053af03"/>
@@ -845,10 +981,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-28 11:47:58</sys_created_on>
         <sys_id>05da680797ac4210bea8b390f053af47</sys_id>
-        <sys_mod_count>47</sys_mod_count>
+        <sys_mod_count>83</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 09:10:20</sys_updated_on>
+        <sys_updated_on>2024-03-06 11:24:30</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -933,14 +1069,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-28 11:47:57</sys_created_on>
         <sys_id>b0da680797ac4210bea8b390f053af1e</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>53</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 09:10:19</sys_updated_on>
+        <sys_updated_on>2024-03-06 11:24:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1016,14 +1152,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-28 11:47:57</sys_created_on>
         <sys_id>b8da680797ac4210bea8b390f053af05</sys_id>
-        <sys_mod_count>61</sys_mod_count>
+        <sys_mod_count>109</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 09:10:19</sys_updated_on>
+        <sys_updated_on>2024-03-06 11:24:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1038,7 +1174,81 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=78da680797ac4210bea8b390f053af03"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=78da680797ac4210bea8b390f053af03"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=78da680797ac4210bea8b390f053af03^sys_idNOT IN2697f92797a00210bea8b390f053afa3,a0871ea797240210bea8b390f053affc,e4875ea797240210bea8b390f053af04,ec885a2b97240210bea8b390f053af6e"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=78da680797ac4210bea8b390f053af03^sys_idNOT IN0c3e8eb097700210bea8b390f053afe4,2697f92797a00210bea8b390f053afa3,a0871ea797240210bea8b390f053affc,e4875ea797240210bea8b390f053af04,ec885a2b97240210bea8b390f053af6e,ff2e8eb097700210bea8b390f053afdc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Final Service Request (Ordering and Procurement)">78da680797ac4210bea8b390f053af03</flow>
+        <order>5</order>
+        <parent_ui_id>25667a9a-fdd9-41be-91a3-a86799a902dd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-03-05 05:31:26</sys_created_on>
+        <sys_id>0c3e8eb097700210bea8b390f053afe4</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 11:24:29</sys_updated_on>
+        <ui_id>e4afe594-327b-4d30-89f2-862171fef984</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0c3e8eb097700210bea8b390f053afe4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0c3e8eb097700210bea8b390f053afe4</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-03-05 05:31:26</sys_created_on>
+        <sys_id>443e8eb097700210bea8b390f053afe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-03-05 05:31:26</sys_updated_on>
+        <value>x_1321711_ordering_asset_inventory</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0c3e8eb097700210bea8b390f053afe4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>0c3e8eb097700210bea8b390f053afe4</id>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-03-05 05:31:26</sys_created_on>
+        <sys_id>c03e8eb097700210bea8b390f053afe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-03-05 05:31:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{68648d0c-8eba-423b-8dbe-8c54fdb19894.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>0c3e8eb097700210bea8b390f053afe4</id>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-03-05 05:31:26</sys_created_on>
+        <sys_id>4c3e8eb097700210bea8b390f053afe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-03-05 05:31:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>0c3e8eb097700210bea8b390f053afe4</id>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-03-05 05:31:26</sys_created_on>
+        <sys_id>003e8eb097700210bea8b390f053afe6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 10:47:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>u_op_ai_asset_assigned_to={{Service Catalog_1.request_item.requested_for}}^u_op_ai_state=in_use^u_op_ai_available=false^u_op_ai_request={{Service Catalog_1.request_item.request}}^u_op_ai_requested_item={{Service Catalog_1.request_item}}^u_op_ai_company={{Service Catalog_1.request_item.requested_for.company}}^u_op_ai_department={{Service Catalog_1.request_item.requested_for.department}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0c3e8eb097700210bea8b390f053afe4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0c3e8eb097700210bea8b390f053afe4"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1053,10 +1263,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-01 06:40:21</sys_created_on>
         <sys_id>2697f92797a00210bea8b390f053afa3</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>64</sys_mod_count>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 09:10:19</sys_updated_on>
+        <sys_updated_on>2024-03-06 11:24:29</sys_updated_on>
         <ui_id>459957e7-2181-4508-86c1-731995140c89</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2697f92797a00210bea8b390f053afa3"/>
@@ -1068,9 +1278,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-01 06:40:21</sys_created_on>
         <sys_id>2697f92797a00210bea8b390f053afa6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 08:59:45</sys_updated_on>
+        <sys_updated_on>2024-03-06 11:24:28</sys_updated_on>
         <value>assignment_group={"display":"Procurement","value":"8a4cb6d4c61122780043b1642efcd52b","sys_id":"8a4cb6d4c61122780043b1642efcd52b"}^description=Pull from Stock or Order from Vendor if required. </value>
         <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
     </sys_variable_value>
@@ -1123,9 +1333,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-01 06:40:21</sys_created_on>
         <sys_id>6a97f92797a00210bea8b390f053afa5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 06:40:21</sys_updated_on>
+        <sys_updated_on>2024-03-06 11:24:28</sys_updated_on>
         <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
         <value/>
     </sys_element_mapping>
@@ -1193,10 +1403,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-01 08:59:45</sys_created_on>
         <sys_id>a0871ea797240210bea8b390f053affc</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 09:10:19</sys_updated_on>
+        <sys_updated_on>2024-03-06 11:24:29</sys_updated_on>
         <ui_id>7b8febed-bb24-4a68-b835-cee595555e44</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a0871ea797240210bea8b390f053affc"/>
@@ -1275,16 +1485,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Final Service Request (Ordering and Procurement)">78da680797ac4210bea8b390f053af03</flow>
-        <order>4</order>
+        <order>6</order>
         <parent_ui_id>25667a9a-fdd9-41be-91a3-a86799a902dd</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-01 08:59:45</sys_created_on>
         <sys_id>e4875ea797240210bea8b390f053af04</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 09:10:19</sys_updated_on>
+        <sys_updated_on>2024-03-06 11:24:29</sys_updated_on>
         <ui_id>c62a83f9-5b10-44f2-9cdb-b93e0c8784dd</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e4875ea797240210bea8b390f053af04"/>
@@ -1363,16 +1573,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Final Service Request (Ordering and Procurement)">78da680797ac4210bea8b390f053af03</flow>
-        <order>5</order>
+        <order>7</order>
         <parent_ui_id>25667a9a-fdd9-41be-91a3-a86799a902dd</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-01 09:04:07</sys_created_on>
         <sys_id>ec885a2b97240210bea8b390f053af6e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 09:10:19</sys_updated_on>
+        <sys_updated_on>2024-03-06 11:24:29</sys_updated_on>
         <ui_id>3e5497b5-a109-4535-a4ec-6e7e738425ad</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ec885a2b97240210bea8b390f053af6e"/>
@@ -1443,6 +1653,68 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ec885a2b97240210bea8b390f053af6e"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ec885a2b97240210bea8b390f053af6e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Final Service Request (Ordering and Procurement)">78da680797ac4210bea8b390f053af03</flow>
+        <order>4</order>
+        <parent_ui_id>25667a9a-fdd9-41be-91a3-a86799a902dd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-03-05 05:31:26</sys_created_on>
+        <sys_id>ff2e8eb097700210bea8b390f053afdc</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 11:24:29</sys_updated_on>
+        <ui_id>68648d0c-8eba-423b-8dbe-8c54fdb19894</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ff2e8eb097700210bea8b390f053afdc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ff2e8eb097700210bea8b390f053afdc</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-03-05 05:31:26</sys_created_on>
+        <sys_id>fb2e8eb097700210bea8b390f053afde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-03-05 05:31:26</sys_updated_on>
+        <value>x_1321711_ordering_asset_inventory</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ff2e8eb097700210bea8b390f053afdc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>ff2e8eb097700210bea8b390f053afdc</id>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-03-05 05:31:26</sys_created_on>
+        <sys_id>b72e8eb097700210bea8b390f053afde</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 06:54:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>u_op_ai_display_name={{Service Catalog_1.request_item.short_description}}^u_op_ai_available=true</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>ff2e8eb097700210bea8b390f053afdc</id>
+        <sys_created_by>sanuja.kulkarni</sys_created_by>
+        <sys_created_on>2024-03-05 05:31:26</sys_created_on>
+        <sys_id>7b2e8eb097700210bea8b390f053afde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sanuja.kulkarni</sys_updated_by>
+        <sys_updated_on>2024-03-05 05:31:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ff2e8eb097700210bea8b390f053afdc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ff2e8eb097700210bea8b390f053afdc"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=78da680797ac4210bea8b390f053af03"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=78da680797ac4210bea8b390f053af03^sys_idNOT IN9f64bcd79720c210bea8b390f053af8a"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
@@ -1467,10 +1739,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-29 07:08:23</sys_created_on>
         <sys_id>9f64bcd79720c210bea8b390f053af8a</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>55</sys_mod_count>
         <sys_scope display_value="Ordering and Procurement">c93e83a497200210bea8b390f053af2c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 09:10:19</sys_updated_on>
+        <sys_updated_on>2024-03-06 11:24:29</sys_updated_on>
         <ui_id>25667a9a-fdd9-41be-91a3-a86799a902dd</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1579,17 +1851,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"05da680797ac4210bea8b390f053af74","name":"plan","plan_signature":null}}</plan>
         <plan_id>49b6a88f976c4210bea8b390f053af91</plan_id>
-        <snapshot>d458e2eb97640210bea8b390f053af34</snapshot>
+        <snapshot>78da680797ac4210bea8b390f053af03</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-28 11:47:59</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>05da680797ac4210bea8b390f053af74</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-01 09:10:20</sys_updated_on>
+        <sys_updated_on>2024-03-06 11:24:30</sys_updated_on>
         <trigger display_value="">4dda680797ac4210bea8b390f053af73</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=49b6a88f976c4210bea8b390f053af91"/>

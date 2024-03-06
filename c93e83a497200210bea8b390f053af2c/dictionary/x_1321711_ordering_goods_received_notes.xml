@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="242024f097a40210bea8b390f053af6c" label="Goods Received Notes" max_length="40" name="x_1321711_ordering_goods_received_notes" type="collection">
-        <element label="GRNI Count" max_length="40" name="u_op_grn_grni_count" type="integer"/>
+        <element label="Remaining PO Items" max_length="40" name="u_op_grn_grni_count" read_only="true" type="integer"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="u_op_grn_number" read_only="true" type="string" use_dynamic_default="true"/>
         <element attributes="encode_utf8=false" label="Purchase Order" max_length="32" name="u_op_grn_purchase_order" reference="x_1321711_ordering_purchase_order" reference_qual="u_op_po_state=ordered^EQ" reference_qual_condition="u_op_po_state=ordered^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Received" max_length="40" name="u_op_grn_received" type="glide_date_time"/>
